@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>table-select | rusty1s</title>
+
+    <link rel="stylesheet" type="text/css" href="table-select.css"/>
+    <script src="table-select.min.js"></script>
+  </head>
+
+  <body>
+    <main>
+
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Birthday</th>
+            <th>Grocery item</th>
+            <th>Price</th>
+            <th>Version</th>
+            <th>Filesize</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Gonzo the Great</td>
+            <td>12-2-70</td>
+            <td>Radishes</td>
+            <td>$0.63</td>
+            <td>31.0.1650.57</td>
+            <td>124k</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Ernie</td>
+            <td>10/11/69</td>
+            <td>Fish</td>
+            <td>$12.09</td>
+            <td>11.0.1</td>
+            <td>134.56 GB</td>
+          </tr>
+          <tr class="unselectable">
+            <td>3</td>
+            <td>Bert</td>
+            <td>10/11/1969</td>
+            <td>Broccoli</td>
+            <td>$0.79</td>
+            <td>18.0.1284.49</td>
+            <td>134 B</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Cookie Monster</td>
+            <td>1/09/1966</td>
+            <td>Oreo cookies</td>
+            <td>$2.78</td>
+            <td>3.0.0</td>
+            <td>4.13 TiB</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Kermit</td>
+            <td>12-05-1955</td>
+            <td>Granola</td>
+            <td>$4.73</td>
+            <td>3.0.9</td>
+            <td>12 YB</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Sam the Eagle</td>
+            <td>04/07/75</td>
+            <td>Corn dog</td>
+            <td>$5.50</td>
+            <td>3.1.2</td>
+            <td>19.4 K</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Gonzo the Great</td>
+            <td>12-2-70</td>
+            <td>Radishes</td>
+            <td>$0.63</td>
+            <td>31.0.1650.57</td>
+            <td>124k</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Ernie</td>
+            <td>10/11/69</td>
+            <td>Fish</td>
+            <td>$12.09</td>
+            <td>11.0.1</td>
+            <td>134.56 GB</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Bert</td>
+            <td>10/11/1969</td>
+            <td>Broccoli</td>
+            <td>$0.79</td>
+            <td>18.0.1284.49</td>
+            <td>134 B</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Cookie Monster</td>
+            <td>1/09/1966</td>
+            <td>Oreo cookies</td>
+            <td>$2.78</td>
+            <td>3.0.0</td>
+            <td>4.13 TiB</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Kermit</td>
+            <td>12-05-1955</td>
+            <td>Granola</td>
+            <td>$4.73</td>
+            <td>3.0.9</td>
+            <td>12 YB</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Sam the Eagle</td>
+            <td>04/07/75</td>
+            <td>Corn dog</td>
+            <td>$5.50</td>
+            <td>3.1.2</td>
+            <td>19.4 K</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <script>
+        var table = document.querySelector('table');
+        new TableSelect(table, {
+          shouldSelectRow(row) { return !row.classList.contains('unselectable'); }
+        });
+
+        table.addEventListener('action', function(event) {
+          alert('Perform action on ' + event.detail.rows.length + ' row(s)!');
+        })
+      </script>
+
+    </main>
+  </body>
+</html>

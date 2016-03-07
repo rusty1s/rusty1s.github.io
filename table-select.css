@@ -1,0 +1,36 @@
+table.selectable {
+  border-collapse: collapse;
+  font-family: sans-serif;
+  margin: 50px auto;
+}
+
+table.selectable th, table.selectable tbody {
+  border: 1px solid black;
+}
+
+table.selectable thead th {
+  background-color: dimgray;
+  color: white;
+}
+
+table.selectable tbody tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+table.selectable tbody tr.unselectable {
+  color: lightgray;
+}
+
+table.selectable tbody tr {
+  transition: all .05s;
+  -webkit-transform: all .05s;
+}
+
+table.selectable tbody tr.selected {
+  background-color: royalblue;
+  color: white;
+}
+
+table.selectable td, table.selectable th {
+  padding: 10px 15px;
+}
