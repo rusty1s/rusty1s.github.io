@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "js-dev-utils": "git+https://github.com/rusty1s/js-dev-utils.git"
+  }
+}
