@@ -10,7 +10,9 @@ const Footer = () =>
       <div>matthias [dot] fey [at] tu-dortmund [dot] de</div>
       <div>Computer Science VII, University of Dortmund</div>
       <div>Otto-Hahn-Str. 16, D-44227 Dortmund, Germany</div>
-      <img src={github} className="github" />
+      <a href="https://www.github.com/rusty1s">
+        <img src={github} className="github" />
+      </a>
       <div>
         © {new Date().getFullYear()} Matthias Fey
       </div>
