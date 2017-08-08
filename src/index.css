@@ -1,10 +1,15 @@
 html {
   background: #fcfbfd;
   color: #32342f;
-  font-family: "Helvetica Neue";
+  font-family: Roboto, sans-serif;
   font-weight: 300;
 }
 
 body {
+  margin: 0;
+}
+
+h1,
+p {
   margin: 0;
 }

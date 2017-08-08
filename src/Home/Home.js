@@ -2,19 +2,22 @@ import React from "react";
 
 import "./home.css";
 import profile from "./profile.png";
+import { Grid, GridItem } from "../components/Grid";
 import Button from "../components/Button";
 
 const Home = () =>
   <div>
-    <div>
-      <img src={profile} className="profile" alt="Profile view" />
-      <div>
-        <h1>Matthias Fey</h1>
-        <p>
+    <Grid>
+      <GridItem>
+        <img src={profile} className="profile" alt="Profile view" />
+      </GridItem>
+      <GridItem>
+        <h1 className="title">Matthias Fey</h1>
+        <p className="subtitle">
           PhD candidate<br />University of Dortmund
         </p>
-      </div>
-    </div>
+      </GridItem>
+    </Grid>
     <div>
       <div>
         <p>
