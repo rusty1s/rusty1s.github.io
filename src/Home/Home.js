@@ -6,7 +6,7 @@ import profile from "./profile.png";
 const Home = () =>
   <div>
     <div>
-      <img src={profile} className="profile" />
+      <img src={profile} className="profile" alt="Profile view" />
       <div>
         <h1>Matthias Fey</h1>
         <p>
