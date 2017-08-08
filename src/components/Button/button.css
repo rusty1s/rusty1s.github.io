@@ -1,0 +1,12 @@
+.button {
+  text-decoration: none;
+  color: #558aea;
+  text-transform: uppercase;
+  font-weight: 500;
+  background: #dcdadd;
+  padding: 0.5rem 1rem;
+  border-radius: 500px;
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+}

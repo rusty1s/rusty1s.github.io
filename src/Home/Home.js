@@ -2,6 +2,7 @@ import React from "react";
 
 import "./home.css";
 import profile from "./profile.png";
+import Button from "../components/Button";
 
 const Home = () =>
   <div>
@@ -35,9 +36,12 @@ const Home = () =>
           node.js, CSS, React, Arch Linux and Vim. All my contributions can be
           found at my <a href="https://www.github.com/rusty1s">Github</a> page.
         </p>
-        <a href="http://rusty1s.github.io/curriculum-vitae/german.pdf">
+        <Button
+          containerElement="a"
+          href="http://rusty1s.github.io/curriculum-vitae/german.pdf"
+        >
           Curriculum vitae
-        </a>
+        </Button>
       </div>
     </div>
   </div>;

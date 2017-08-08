@@ -2,10 +2,13 @@ import React from "react";
 
 import "./footer.css";
 import github from "./github.svg";
+import Button from "../components/Button";
 
 const Footer = () =>
   <footer className="footer">
-    <a href="mailto:matthias.fey@tu-dortmund.de">Get in touch</a>
+    <Button containerElement="a" href="mailto:matthias.fey@tu-dortmund.de">
+      Get in touch
+    </Button>
     <p>
       <div>matthias [dot] fey [at] tu-dortmund [dot] de</div>
       <div>Computer Science VII, University of Dortmund</div>
