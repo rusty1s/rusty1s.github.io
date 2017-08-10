@@ -9,3 +9,8 @@ const Grid = ({ children, className, ...props }) =>
   </div>;
 
 export default Grid;
+
+// TODOS:
+// spacing
+// vertical horizontal
+// align
