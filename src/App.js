@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import "./app.css";
-import Baseline from "./components/Baseline";
 import { Grid, GridItem } from "./components/Grid";
 import Background from "./Background";
 import Nav from "./Nav";

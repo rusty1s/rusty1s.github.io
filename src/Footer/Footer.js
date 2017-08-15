@@ -17,7 +17,12 @@ const Footer = () =>
       <span>Otto-Hahn-Str. 16, D-44227 Dortmund, Germany</span>
       <br />
       <a href="https://www.github.com/rusty1s">
-        <img src={github} className="github" />
+        <img
+          src={github}
+          className="github"
+          alt="Go to Github"
+          title="Go to Github"
+        />
       </a>
       <br />
       <span>
