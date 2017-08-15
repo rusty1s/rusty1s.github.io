@@ -1,3 +1,9 @@
 .grid {
   display: flex;
+  flex-direction: row;
+}
+
+.vertical {
+  flex-direction: column;
+  min-height: 100%;
 }

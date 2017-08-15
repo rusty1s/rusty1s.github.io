@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%;
+}
+
 html {
   background: #fcfbfd;
   color: #32342f;
@@ -14,9 +19,12 @@ body {
 body,
 h1,
 h2,
-p,
 pre {
   margin: 0;
+}
+
+p {
+  margin: 0 0 2rem;
 }
 
 h1,
@@ -38,4 +46,8 @@ button {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+#root {
+  height: 100%;
 }

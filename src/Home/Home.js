@@ -19,7 +19,7 @@ const Home = () =>
       </GridItem>
     </Grid>
     <Grid>
-      <GridItem>
+      <GridItem shrink>
         <p>
           I'm a first-year PhD student in Machine Learning on graphs at the
           University of Dortmund. My main area of interest is the generalization
@@ -32,7 +32,7 @@ const Home = () =>
           during studies.
         </p>
       </GridItem>
-      <GridItem>
+      <GridItem shrink>
         <p>
           In my freetime I'm passioned about new web technologies and
           community-driven open-source development. I'm an enthusiast for

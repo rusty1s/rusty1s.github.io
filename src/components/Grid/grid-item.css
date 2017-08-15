@@ -1,13 +1,10 @@
-.no-grow {
+.grid-item {
   flex-grow: 0;
+  flex-shrink: 0;
 }
 
 .grow {
   flex-grow: 1;
-}
-
-.no-shrink {
-  flex-shrink: 0;
 }
 
 .shrink {
