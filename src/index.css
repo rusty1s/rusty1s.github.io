@@ -14,7 +14,8 @@ body {
 body,
 h1,
 h2,
-p {
+p,
+pre {
   margin: 0;
 }
 
@@ -25,6 +26,16 @@ h2 {
 }
 
 button {
-  border: none;
-  /* font-size: inherit; */
+  border: inherit;
+  background: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

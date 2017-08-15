@@ -47,9 +47,9 @@
       "type": "mastersthesis",
       "id": "Fey2017",
       "content": [
-        "title={Convolutional Neural Networks auf Graphrepr{\"a}sentationen von Bildern}",
+        "title={Convolutional Neural Networks auf Graphrepr{\\\"a}sentationen von Bildern}",
         "author={Matthias Fey}",
-        "school={Technische Universit{\"a}t Dortmund}",
+        "school={Technische Universit{\\\"a}t Dortmund}",
         "year={2017}"
       ]
     }
@@ -69,10 +69,10 @@
       "type": "mastersthesis",
       "id": "Fey2013",
       "content": [
-        "title={Qualitative Semantiken f{\"u}r DAGs –- ein Vergleich von OCF- und CP-Netzwerken}",
+        "title={Qualitative Semantiken f{\\\"u}r DAGs –- ein Vergleich von OCF- und CP-Netzwerken}",
         "author={Matthias Fey}",
         "type={Bachelor-Thesis}",
-        "school={Technische Universit{\"a}t Dortmund}",
+        "school={Technische Universit{\\\"a}t Dortmund}",
         "year={2013}"
       ]
     }

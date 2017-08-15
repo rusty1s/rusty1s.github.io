@@ -1,5 +1,6 @@
 import React from "react";
 
+import Code from "../components/Code";
 import publications from "./publications.json";
 
 const Publications = () =>
@@ -31,7 +32,7 @@ const Publications = () =>
           <button>bibtex</button>
           ]
         </div>
-        <pre>
+        <Code>
           <div>
             {`@${p.bibtex.type}{${p.bibtex.id},`}
           </div>
@@ -39,7 +40,7 @@ const Publications = () =>
           <div>
             {"}"}
           </div>
-        </pre>
+        </Code>
       </article>
     )}
   </div>;
