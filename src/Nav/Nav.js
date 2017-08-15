@@ -16,6 +16,16 @@ const Nav = () =>
           Publications
         </NavLink>
       </li>
+      <li>
+        <NavLink to="/projects" activeClassName="active">
+          Projects
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/blog" activeClassName="active">
+          Blog
+        </NavLink>
+      </li>
     </ul>
   </nav>;
 
