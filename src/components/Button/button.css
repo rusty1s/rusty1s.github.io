@@ -11,3 +11,7 @@
   border-radius: 1.5rem;
   letter-spacing: 0.1rem;
 }
+
+.button:hover {
+  text-decoration: none;
+}

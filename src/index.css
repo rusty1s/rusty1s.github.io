@@ -46,7 +46,11 @@ button {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: #558aea;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 #root {

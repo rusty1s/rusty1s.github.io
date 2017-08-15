@@ -1,9 +1,14 @@
 .grid {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .vertical {
   flex-direction: column;
   min-height: 100%;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
