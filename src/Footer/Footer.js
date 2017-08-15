@@ -10,15 +10,19 @@ const Footer = () =>
       Get in touch
     </Button>
     <p>
-      <div>matthias [dot] fey [at] tu-dortmund [dot] de</div>
-      <div>Computer Science VII, University of Dortmund</div>
-      <div>Otto-Hahn-Str. 16, D-44227 Dortmund, Germany</div>
+      <span className="email">matthias.fey [at] tu-dortmund.de</span>
+      <br />
+      <span>Computer Science VII, University of Dortmund</span>
+      <br />
+      <span>Otto-Hahn-Str. 16, D-44227 Dortmund, Germany</span>
+      <br />
       <a href="https://www.github.com/rusty1s">
         <img src={github} className="github" />
       </a>
-      <div>
+      <br />
+      <span>
         © {new Date().getFullYear()} Matthias Fey
-      </div>
+      </span>
     </p>
   </footer>;
 

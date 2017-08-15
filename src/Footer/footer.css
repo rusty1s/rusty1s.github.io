@@ -1,9 +1,18 @@
 .footer {
   background: #f1f1f1;
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 2rem 0;
+}
+
+.footer p {
+  padding-top: 2rem;
+}
+
+.email {
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .github {
-  width: 2rem;
+  width: 3rem;
 }
