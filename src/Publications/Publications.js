@@ -1,47 +1,50 @@
 import React from "react";
 
+import "./publications.css";
 import Code from "../components/Code";
 import publications from "./publications.json";
 
+// TODO: Copy to clipboard
+
 const Publications = () =>
-  <div>
+  <div className="publications">
     {publications.map(p =>
-      <article>
-        <header>
+      <section key={p.name} className="publication">
+        <header className="name">
           {p.name}
         </header>
         {p.author &&
-          <header>
+          <div className="author">
             {p.author}
-          </header>}
+          </div>}
         {p.description.map(des =>
-          <div>
+          <div key={des} className="description">
             {des}
           </div>
         )}
-        <div>
+        <footer>
           [
           {p.refs.map(ref =>
-            <span>
+            <span key={ref.name}>
               <a href={ref.href}>
                 {ref.name}
               </a>
               {", "}
             </span>
           )}
-          <button>bibtex</button>
+          <button>Bibtex</button>
           ]
-        </div>
+        </footer>
         <Code>
           <div>
             {`@${p.bibtex.type}{${p.bibtex.id},`}
           </div>
-          {p.bibtex.content.map(line => <div>{`  ${line},`}</div>)}
+          {p.bibtex.content.map(line => <div key={line}>{`  ${line},`}</div>)}
           <div>
             {"}"}
           </div>
         </Code>
-      </article>
+      </section>
     )}
   </div>;
 

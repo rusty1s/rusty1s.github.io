@@ -1,6 +1,14 @@
-.profile {
+.profile-view {
+  margin-bottom: 4rem;
+}
+
+.profile-img {
   border-radius: 50%;
   border: 10px solid #dcdadd;
+}
+
+.profile-name {
+  margin-top: 5rem;
 }
 
 .title {

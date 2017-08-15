@@ -1,5 +1,7 @@
 .code {
+  text-align: left;
   background: #f1f1f1;
   padding: 1rem;
   border-radius: 1.5rem;
+  overflow-x: auto;
 }

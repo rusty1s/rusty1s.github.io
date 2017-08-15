@@ -1,0 +1,19 @@
+.publications {
+  text-align: center;
+}
+
+.publication {
+  margin-bottom: 4rem;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.description {
+  font-style: italic;
+}
+
+pre {
+  display: none;
+}

@@ -8,10 +8,10 @@ import Button from "../components/Button";
 const Home = () =>
   <div>
     <Grid>
-      <GridItem>
-        <img src={profile} className="profile" alt="Profile view" />
+      <GridItem className="profile-view">
+        <img src={profile} className="profile-img" alt="Profile view" />
       </GridItem>
-      <GridItem>
+      <GridItem className="profile-name">
         <h1 className="title">Matthias Fey</h1>
         <h2 className="subtitle">
           PhD candidate<br />University of Dortmund
