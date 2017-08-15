@@ -5,12 +5,13 @@
 }
 
 .navigation a {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
   text-decoration: none;
   color: inherit;
 }
 
 .navigation a.active {
-  font-size: 2.5rem;
+  font-size: 3.6rem;
   font-weight: 500;
+  letter-spacing: -0.08rem;
 }

@@ -6,12 +6,12 @@
 .title {
   color: #558aea;
   font-weight: 500;
+  letter-spacing: -0.08rem;
   text-transform: uppercase;
-  font-size: 1.75rem;
+  font-size: 2.8rem;
   margin-bottom: 1em;
 }
 
 .subtitle {
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: 2.2rem;
 }

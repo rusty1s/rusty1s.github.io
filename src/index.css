@@ -1,15 +1,29 @@
 html {
   background: #fcfbfd;
   color: #32342f;
+  font-size: 62.5%;  /* 10px by default */
+}
+
+body {
+  font-size: 1.8rem;
   font-family: Roboto, sans-serif;
   font-weight: 300;
 }
 
-body {
+body,
+h1,
+h2,
+p {
   margin: 0;
 }
 
 h1,
-p {
-  margin: 0;
+h2 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+button {
+  border: none;
+  /* font-size: inherit; */
 }

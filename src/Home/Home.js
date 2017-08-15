@@ -13,9 +13,9 @@ const Home = () =>
       </GridItem>
       <GridItem>
         <h1 className="title">Matthias Fey</h1>
-        <p className="subtitle">
+        <h2 className="subtitle">
           PhD candidate<br />University of Dortmund
-        </p>
+        </h2>
       </GridItem>
     </Grid>
     <div>
