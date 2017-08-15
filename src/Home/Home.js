@@ -18,8 +18,8 @@ const Home = () =>
         </h2>
       </GridItem>
     </Grid>
-    <div>
-      <div>
+    <Grid>
+      <GridItem>
         <p>
           I'm a first-year PhD student in Machine Learning on graphs at the
           University of Dortmund. My main area of interest is the generalization
@@ -31,8 +31,8 @@ const Home = () =>
           and gathered five years worth of experience at a software company
           during studies.
         </p>
-      </div>
-      <div>
+      </GridItem>
+      <GridItem>
         <p>
           In my freetime I'm passioned about new web technologies and
           community-driven open-source development. I'm an enthusiast for
@@ -45,8 +45,8 @@ const Home = () =>
         >
           Curriculum vitae
         </Button>
-      </div>
-    </div>
+      </GridItem>
+    </Grid>
   </div>;
 
 export default Home;

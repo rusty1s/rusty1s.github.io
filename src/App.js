@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
+import Baseline from "./components/Baseline";
 import Background from "./Background";
 import Nav from "./Nav";
 import Home from "./Home";
@@ -9,13 +10,13 @@ import Footer from "./Footer";
 
 const App = () =>
   <Router>
-    <div>
+    <Baseline>
       <Background />
       <Nav />
       <Route exact path="/" component={Home} />
       <Route path="/publications" component={Publications} />
       <Footer />
-    </div>
+    </Baseline>
   </Router>;
 
 export default App;

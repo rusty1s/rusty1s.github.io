@@ -1,0 +1,6 @@
+.baseline {
+  background-image:
+    linear-gradient(to bottom, red 0, transparent 1px),
+    linear-gradient(to right, red 0, transparent 1px);
+  background-size: 1rem 1rem;
+}
