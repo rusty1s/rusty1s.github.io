@@ -14,6 +14,19 @@
   font-style: italic;
 }
 
-pre {
+.bibtex-button {
+  outline: none;
+  color: #558aea;
+}
+
+.bibtex-button:hover {
+  text-decoration: underline;
+}
+
+.bibtex {
   display: none;
+}
+
+.bibtex.opened {
+  display: block;
 }
