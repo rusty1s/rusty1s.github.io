@@ -22,6 +22,11 @@ const Nav = () =>
         </NavLink>
       </li>
       <li>
+        <NavLink to="/teaching" activeClassName="active">
+          Teaching
+        </NavLink>
+      </li>
+      <li>
         <NavLink to="/blog" activeClassName="active">
           Blog
         </NavLink>
