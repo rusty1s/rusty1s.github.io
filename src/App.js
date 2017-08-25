@@ -12,7 +12,7 @@ import Projects from "./Projects";
 
 const App = () =>
   <Router>
-    <Grid vertical>
+    <Grid vertical className="app">
       <Background />
       <GridItem className="wrapper">
         <Nav />
