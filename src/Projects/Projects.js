@@ -16,3 +16,4 @@ export default Projects;
 // TODO:
 // Can i use github api?
 // i need readme text
+// hover readme text on image
