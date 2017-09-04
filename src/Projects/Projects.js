@@ -6,5 +6,5 @@ export default Projects;
 
 // TODO:
 // https://api.github.com/users/rusty1s/repos (filter by name list)
-// add stars and forks, issues
+// add stars and forks, issues, maybe labels
 // hover readme text on image
