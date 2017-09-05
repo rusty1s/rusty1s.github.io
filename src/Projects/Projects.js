@@ -1,6 +1,10 @@
 import React from 'react';
 
-const Projects = () => <div />;
+import projects from './projects.json';
+
+const Projects = () => (
+  <div>{projects.map(project => <article>{project.name}</article>)}</div>
+);
 
 export default Projects;
 
