@@ -1,18 +1,14 @@
 import React from 'react';
 
-const Projects = () => <div />;
+import projects from './projects.json';
+
+const Projects = () => (
+  <div>{projects.map(project => <article>{project.name}</article>)}</div>
+);
 
 export default Projects;
 
-// dotfiles
-// embedded_gcnn
-// table2excel
-// js-dev-utils
-// deep-learning-cheatsheet
-// mongoose-18n-localize
-// react-documentviewer
-// RSClipperWrapper
-//
 // TODO:
-// Can i use github api?
-// i need readme text
+// https://api.github.com/users/rusty1s/repos (filter by name list)
+// add stars and forks, issues, maybe labels
+// hover readme text on image
