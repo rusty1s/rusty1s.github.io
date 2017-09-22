@@ -3,7 +3,8 @@
   "scripts": {
     "postinstall": "js-dev-utils postinstall",
     "start": "js-dev-utils webpack dev",
-    "build": "js-dev-utils webpack prod"
+    "build": "js-dev-utils webpack prod",
+    "lint": "js-dev-utils eslint ."
   },
   "dependencies": {
     "classnames": "^2.2.5",

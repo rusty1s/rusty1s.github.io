@@ -1,24 +1,24 @@
-import React from "react";
-import PropTypes from "prop-types";
-import cx from "classnames";
+import React from 'react';
+import PropTypes from 'prop-types';
+import cx from 'classnames';
 
-import "./button.css";
+import './button.css';
 
 const propTypes = {
   containerElement: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
   children: PropTypes.node,
-  className: PropTypes.string
+  className: PropTypes.string,
 };
 
 const defaultProps = {
-  containerElement: "button",
+  containerElement: 'button',
   children: null,
-  className: null
+  className: null,
 };
 
 const Button = ({ containerElement, children, className, ...props }) => {
   const buttonProps = Object.assign({}, props, {
-    className: cx(className, "button")
+    className: cx(className, 'button'),
   });
 
   if (React.isValidElement(containerElement)) {

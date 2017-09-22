@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import "./footer.css";
-import github from "./github.svg";
-import Button from "../components/Button";
+import './footer.css';
+import github from './github.svg';
+import Button from '../components/Button';
 
-const Footer = () =>
+const Footer = () => (
   <footer className="footer">
     <Button containerElement="a" href="mailto:matthias.fey@tu-dortmund.de">
       Get in touch
@@ -25,10 +25,9 @@ const Footer = () =>
         />
       </a>
       <br />
-      <span>
-        © {new Date().getFullYear()} Matthias Fey
-      </span>
+      <span>© {new Date().getFullYear()} Matthias Fey</span>
     </p>
-  </footer>;
+  </footer>
+);
 
 export default Footer;

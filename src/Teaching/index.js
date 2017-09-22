@@ -1,5 +1,1 @@
-import React from 'react';
-
-const Bla = () => <div />;
-
-export default Bla;
+export { default } from './Teaching';
