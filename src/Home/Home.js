@@ -1,8 +1,10 @@
 import React from 'react';
 
 import styles from './home.css';
-import profile from './profile.png';
+
 import { Grid, GridItem } from '../components/Grid';
+import Title from '../components/Title';
+import Subtitle from '../components/Subtitle';
 import Button from '../components/Button';
 import Paragraph from '../components/Paragraph';
 
@@ -13,12 +15,12 @@ const Home = () => (
         <div className={styles.image} />
       </GridItem>
       <GridItem>
-        <h1 className="title">Matthias Fey</h1>
-        <h2 className="subtitle">
+        <Title>Matthias Fey</Title>
+        <Subtitle>
           PhD candidate
           <br />
           University of Dortmund
-        </h2>
+        </Subtitle>
       </GridItem>
     </Grid>
     <Grid wrap>

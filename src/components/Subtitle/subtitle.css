@@ -1,0 +1,9 @@
+@value colors: '../../values/colors.css';
+@value secondary from colors;
+
+.main {
+  font-size: 2.2rem;
+  line-height: 3rem;
+  font-weight: inherit;
+  margin-bottom: 2rem;
+}

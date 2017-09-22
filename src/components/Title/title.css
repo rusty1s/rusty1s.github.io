@@ -1,0 +1,12 @@
+@value colors: '../../values/colors.css';
+@value secondary from colors;
+
+.main {
+  color: secondary;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
