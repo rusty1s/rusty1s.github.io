@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test"
+    "postinstall": "js-dev-utils postinstall",
+    "start": "js-dev-utils webpack dev",
+    "build": "js-dev-utils webpack prod"
   },
   "dependencies": {
     "classnames": "^2.2.5",
@@ -13,6 +13,6 @@
     "react-router-dom": "^4.1.2"
   },
   "devDependencies": {
-    "react-scripts": "^1.0.10"
+    "js-dev-utils": "^0.0.5"
   }
 }
