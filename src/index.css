@@ -1,56 +1,56 @@
+@value colors: './values/colors.css';
+@value primary, background from colors;
+
 html,
 body,
-#root {
+:global(#root) {
   height: 100%;
   width: 100%;
   min-height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-  background: #fcfbfd;
-  color: #32342f;
-  font-size: 62.5%; /* 10px by default */
+  font-size: 62.5%; /* 10px by default. */
 }
 
 body {
+  background: background;
+  color: primary;
   font-size: 1.8rem;
   font-family: Roboto, sans-serif;
   font-weight: 300;
   line-height: 3rem;
 }
 
-body,
-h1,
-h2,
-pre {
-  margin: 0;
+:global(#root)::before {
+  content: '';
+  width: 100%;
+  padding-bottom: 100%;
+  position: absolute;
+  background-image: url('./background.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: -1;
+  transform: translate(28%, -44%) rotate(35deg);
 }
 
-p {
-  margin: 0 0 2rem;
-}
+/* button { */
+/*   border: inherit; */
+/*   background: inherit; */
+/*   font-size: inherit; */
+/*   font-weight: inherit; */
+/*   padding: inherit; */
+/*   color: inherit; */
+/*   cursor: pointer; */
+/* } */
 
-h1,
-h2 {
-  font-weight: inherit;
-  font-size: inherit;
-}
+/* a { */
+/*   text-decoration: none; */
+/*   color: #558aea; */
+/* } */
 
-button {
-  border: inherit;
-  background: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  padding: inherit;
-  color: inherit;
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-  color: #558aea;
-}
-
-a:hover {
-  text-decoration: underline;
-}
+/* a:hover { */
+/*   text-decoration: underline; */
+/* } */

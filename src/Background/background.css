@@ -1,8 +1,0 @@
-.background {
-  position: absolute;
-  user-select: none;
-  z-index: -1;
-  transform: translate(52%, -35%) rotate(35deg);
-  width: 80%;
-  height: auto;
-}

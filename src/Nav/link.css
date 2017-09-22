@@ -1,0 +1,18 @@
+.main {
+  font-size: 2.2rem;
+  line-height: 3rem;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  cursor: pointer;
+
+  &:hover {
+  }
+}
+
+.active {
+  font-size: 4.2rem;
+  line-height: 5rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
