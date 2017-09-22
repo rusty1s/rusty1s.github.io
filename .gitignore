@@ -2,3 +2,4 @@
 node_modules/
 *.aux
 *.log
+dist/index.html
