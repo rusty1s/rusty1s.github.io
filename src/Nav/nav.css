@@ -1,5 +1,7 @@
 .main {
-  margin: 8% 0;
+  composes: wrapper from '../compositions/wrapper.css';
+  margin-top: 8%;
+  margin-bottom: 8%;
 
   & ul {
     list-style-type: none;
