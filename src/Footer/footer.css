@@ -2,9 +2,14 @@
 @value background-dark from colors;
 
 .main {
-  composes: wrapper from '../compositions/wrapper.css';
   background: background-dark;
   padding: 2rem;
+}
+
+.address {
+  composes: wrapper from '../compositions/wrapper.css';
+  font-style: inherit;
+  text-align: center;
 }
 
 .email {

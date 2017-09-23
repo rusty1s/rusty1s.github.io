@@ -6,7 +6,7 @@ import cx from 'classnames';
 import styles from './navLink.css';
 
 const propTypes = {
-  containerElement: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
+  containerElement: PropTypes.oneOfType([PropTypes.string, PropTypes.func]),
   children: PropTypes.node,
   className: PropTypes.string,
 };
@@ -25,10 +25,6 @@ const NavLink = ({ containerElement, children, className, ...props }) => {
     containerElement.propTypes.activeClassName
   ) {
     newProps = { ...newProps, activeClassName: styles.active };
-  }
-
-  if (React.isValidElement(containerElement)) {
-    return React.cloneElement(containerElement, newProps, children);
   }
 
   return React.createElement(containerElement, newProps, children);

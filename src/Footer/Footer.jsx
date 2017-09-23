@@ -7,10 +7,11 @@ import Link from '../components/Link';
 
 const Footer = () => (
   <footer className={styles.main}>
-    <Button containerElement="a" href="mailto:matthias.fey@tu-dortmund.de">
-      Get in touch
-    </Button>
-    <p>
+    <address className={styles.address}>
+      <Button containerElement="a" href="mailto:matthias.fey@tu-dortmund.de">
+        Get in touch
+      </Button>
+      <br />
       <span className="email">matthias.fey [at] tu-dortmund.de</span>
       <br />
       <span>Computer Science VII, University of Dortmund</span>
@@ -27,7 +28,7 @@ const Footer = () => (
       </Link>
       <br />
       <span>© {new Date().getFullYear()} Matthias Fey</span>
-    </p>
+    </address>
   </footer>
 );
 

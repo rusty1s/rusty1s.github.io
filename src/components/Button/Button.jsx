@@ -5,7 +5,7 @@ import cx from 'classnames';
 import styles from './button.css';
 
 const propTypes = {
-  containerElement: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
+  containerElement: PropTypes.oneOfType([PropTypes.string, PropTypes.func]),
   children: PropTypes.node,
   className: PropTypes.string,
 };
@@ -18,11 +18,6 @@ const defaultProps = {
 
 const Button = ({ containerElement, children, className, ...props }) => {
   const newProps = { ...props, className: cx(className, styles.main) };
-
-  if (React.isValidElement(containerElement)) {
-    return React.cloneElement(containerElement, newProps, children);
-  }
-
   return React.createElement(containerElement, newProps, children);
 };
 
