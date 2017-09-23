@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Children } from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 
@@ -8,6 +8,8 @@ const propTypes = {
   vertical: PropTypes.bool,
   wrap: PropTypes.bool,
   center: PropTypes.bool,
+  horizontalSpacing: PropTypes.string,
+  verticalSpacing: PropTypes.string,
   children: PropTypes.node,
   className: PropTypes.string,
 };
@@ -16,11 +18,22 @@ const defaultProps = {
   vertical: false,
   wrap: false,
   center: false,
+  horizontalSpacing: '0px',
+  verticalSpacing: '0px',
   children: null,
   className: null,
 };
 
-const Grid = ({ vertical, wrap, center, children, className, ...props }) => (
+const Grid = ({
+  vertical,
+  wrap,
+  center,
+  horizontalSpacing,
+  verticalSpacing,
+  children,
+  className,
+  ...props
+}) => (
   <div
     className={cx(
       className,
@@ -29,9 +42,17 @@ const Grid = ({ vertical, wrap, center, children, className, ...props }) => (
       wrap && styles.wrap,
       center && styles.center
     )}
+    style={{
+      marginLeft: `-${horizontalSpacing}`,
+      marginTop: `-${verticalSpacing}`,
+    }}
     {...props}
   >
-    {children}
+    {Children.map(children, child =>
+      React.cloneElement(child, {
+        style: { marginLeft: horizontalSpacing, marginTop: verticalSpacing },
+      })
+    )}
   </div>
 );
 

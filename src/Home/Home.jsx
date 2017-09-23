@@ -11,7 +11,7 @@ import Link from '../components/Link';
 
 const Home = () => (
   <div className={styles.main}>
-    <Grid wrap center>
+    <Grid wrap center horizontalSpacing="4rem">
       <GridItem>
         <div className={styles.image} />
       </GridItem>
@@ -24,8 +24,8 @@ const Home = () => (
         </Subtitle>
       </GridItem>
     </Grid>
-    <Grid wrap>
-      <GridItem grow shrink className="text">
+    <Grid wrap horizontalSpacing="4rem">
+      <GridItem grow shrink className={styles.text}>
         <Paragraph>
           {`I'm a first-year PhD student in Machine Learning on graphs at the
           University of Dortmund. My main area of interest is the generalization
@@ -38,7 +38,7 @@ const Home = () => (
           during studies.`}
         </Paragraph>
       </GridItem>
-      <GridItem grow shrink className="text">
+      <GridItem grow shrink className={styles.text}>
         <Paragraph>
           {`In my freetime I'm passioned about new web technologies and
           community-driven open-source development. I'm an enthusiast for
@@ -47,7 +47,7 @@ const Home = () => (
           <Link href="https://www.github.com/rusty1s">Github</Link>
           {` page.`}
         </Paragraph>
-        <div className="button-wrapper">
+        <div className={styles.vitae}>
           <Button
             containerElement="a"
             href="http://rusty1s.github.io/curriculum-vitae/german.pdf"
