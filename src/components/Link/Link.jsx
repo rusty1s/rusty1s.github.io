@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 
-import styles from './button.css';
+import styles from './link.css';
 
 const propTypes = {
   containerElement: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
@@ -11,12 +11,12 @@ const propTypes = {
 };
 
 const defaultProps = {
-  containerElement: 'button',
+  containerElement: 'a',
   children: null,
   className: null,
 };
 
-const Button = ({ containerElement, children, className, ...props }) => {
+const Link = ({ containerElement, children, className, ...props }) => {
   const newProps = { ...props, className: cx(className, styles.main) };
 
   if (React.isValidElement(containerElement)) {
@@ -26,7 +26,7 @@ const Button = ({ containerElement, children, className, ...props }) => {
   return React.createElement(containerElement, newProps, children);
 };
 
-Button.propTypes = propTypes;
-Button.defaultProps = defaultProps;
+Link.propTypes = propTypes;
+Link.defaultProps = defaultProps;
 
-export default Button;
+export default Link;
