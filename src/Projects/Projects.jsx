@@ -3,7 +3,11 @@ import React from 'react';
 import projects from './projects.json';
 
 const Projects = () => (
-  <div>{projects.map(project => <article>{project.name}</article>)}</div>
+  <div>
+    {projects.map(project => (
+      <article key={project.name}>{project.name}</article>
+    ))}
+  </div>
 );
 
 export default Projects;

@@ -10,7 +10,7 @@ import Paragraph from '../components/Paragraph';
 
 const Home = () => (
   <div className={styles.main}>
-    <Grid wrap>
+    <Grid wrap center>
       <GridItem>
         <div className={styles.image} />
       </GridItem>

@@ -12,3 +12,7 @@
 .wrap {
   flex-wrap: wrap;
 }
+
+.center {
+  align-items: center;
+}
