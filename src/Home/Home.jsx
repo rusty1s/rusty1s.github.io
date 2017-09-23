@@ -7,6 +7,7 @@ import Title from '../components/Title';
 import Subtitle from '../components/Subtitle';
 import Button from '../components/Button';
 import Paragraph from '../components/Paragraph';
+import Link from '../components/Link';
 
 const Home = () => (
   <div className={styles.main}>
@@ -43,7 +44,7 @@ const Home = () => (
           community-driven open-source development. I'm an enthusiast for
           node.js, CSS, React, Arch Linux and Vim. All my contributions can be
           found at my `}
-          <a href="https://www.github.com/rusty1s">Github</a>
+          <Link href="https://www.github.com/rusty1s">Github</Link>
           {` page.`}
         </Paragraph>
         <div className="button-wrapper">

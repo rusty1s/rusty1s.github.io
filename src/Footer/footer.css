@@ -1,12 +1,10 @@
-.footer {
-  overflow: auto;
-  background: #f1f1f1;
-  text-align: center;
-  padding: 2rem 2rem 0;
-}
+@value colors: '../values/colors.css';
+@value background-dark from colors;
 
-.footer p {
-  padding-top: 2rem;
+.main {
+  composes: wrapper from '../compositions/wrapper.css';
+  background: background-dark;
+  padding: 2rem;
 }
 
 .email {

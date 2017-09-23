@@ -1,7 +1,6 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
-import Link from './Link';
+import NavLink from '../components/NavLink';
 
 import styles from './nav.css';
 
@@ -9,19 +8,23 @@ const Nav = () => (
   <nav className={styles.main}>
     <ul>
       <li>
-        <Link exact to="/" title="Home" component={NavLink} />
+        <NavLink exact to="/">
+          Home
+        </NavLink>
       </li>
       <li>
-        <Link to="/publications" title="Publications" component={NavLink} />
+        <NavLink to="/publications">Publications</NavLink>
       </li>
       <li>
-        <Link to="/projects" title="Projects" component={NavLink} />
+        <NavLink to="/projects">Projects</NavLink>
       </li>
       <li>
-        <Link to="/teaching" title="Teaching" component={NavLink} />
+        <NavLink to="/teaching">Teaching</NavLink>
       </li>
       <li>
-        <Link to="/blog" title="Blog" href="https://medium.com/@rusty1s" />
+        <NavLink containerElement="a" href="https://medium.com/@rusty1s">
+          Blog
+        </NavLink>
       </li>
     </ul>
   </nav>

@@ -1,11 +1,12 @@
 import React from 'react';
 
-import './footer.css';
+import styles from './footer.css';
 import github from './github.svg';
 import Button from '../components/Button';
+import Link from '../components/Link';
 
 const Footer = () => (
-  <footer className="footer">
+  <footer className={styles.main}>
     <Button containerElement="a" href="mailto:matthias.fey@tu-dortmund.de">
       Get in touch
     </Button>
@@ -16,14 +17,14 @@ const Footer = () => (
       <br />
       <span>Otto-Hahn-Str. 16, D-44227 Dortmund, Germany</span>
       <br />
-      <a href="https://www.github.com/rusty1s">
+      <Link href="https://www.github.com/rusty1s">
         <img
           src={github}
           className="github"
           alt="Go to Github"
           title="Go to Github"
         />
-      </a>
+      </Link>
       <br />
       <span>© {new Date().getFullYear()} Matthias Fey</span>
     </p>

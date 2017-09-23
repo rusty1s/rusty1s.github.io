@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import cx from 'classnames';
 
 import './publications.css';
+import Link from '../components/Link';
 import Code from '../components/Code';
 import publications from './publications.json';
 
@@ -35,16 +36,16 @@ class Publications extends Component {
               [
               {p.refs.map(ref => (
                 <span key={ref.name}>
-                  <a href={ref.href}>{ref.name}</a>
+                  <Link href={ref.href}>{ref.name}</Link>
                   {', '}
                 </span>
               ))}
-              <button
-                className="bibtex-button"
+              <Link
+                containerElement="button"
                 onClick={() => this.toggleBibtex(id)}
               >
                 Bibtex
-              </button>
+              </Link>
               ]
             </footer>
             <Code

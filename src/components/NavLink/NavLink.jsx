@@ -1,0 +1,40 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import { NavLink as Link } from 'react-router-dom';
+import cx from 'classnames';
+
+import styles from './navLink.css';
+
+const propTypes = {
+  containerElement: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
+  children: PropTypes.node,
+  className: PropTypes.string,
+};
+
+const defaultProps = {
+  containerElement: Link,
+  children: null,
+  className: null,
+};
+
+const NavLink = ({ containerElement, children, className, ...props }) => {
+  let newProps = { ...props, className: cx(className, styles.main) };
+
+  if (
+    containerElement.propTypes &&
+    containerElement.propTypes.activeClassName
+  ) {
+    newProps = { ...newProps, activeClassName: styles.active };
+  }
+
+  if (React.isValidElement(containerElement)) {
+    return React.cloneElement(containerElement, newProps, children);
+  }
+
+  return React.createElement(containerElement, newProps, children);
+};
+
+NavLink.propTypes = propTypes;
+NavLink.defaultProps = defaultProps;
+
+export default NavLink;
