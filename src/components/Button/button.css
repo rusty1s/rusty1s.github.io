@@ -1,6 +1,7 @@
 .main {
   background: red;
   color: white;
+  cursor: pointer;
 }
 
 .button {

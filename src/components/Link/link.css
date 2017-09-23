@@ -1,3 +1,15 @@
+@value colors: '../../values/colors.css';
+@value secondary from colors;
+
 .main {
-  color: red;
+  color: secondary;
+  font-weight: inherit;
+  font-size: inherit;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline;
 }

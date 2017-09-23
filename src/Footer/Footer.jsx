@@ -18,14 +18,7 @@ const Footer = () => (
       <br />
       <span>Otto-Hahn-Str. 16, D-44227 Dortmund, Germany</span>
       <br />
-      <Link href="https://www.github.com/rusty1s">
-        <img
-          src={github}
-          className="github"
-          alt="Go to Github"
-          title="Go to Github"
-        />
-      </Link>
+      <Link href="https://www.github.com/rusty1s">Github</Link>
       <br />
       <span>© {new Date().getFullYear()} Matthias Fey</span>
     </address>
