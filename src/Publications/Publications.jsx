@@ -1,9 +1,9 @@
 import React from 'react';
 
 import styles from './publications.css';
+import publications from './publications.json';
 
 import Publication from './Publication';
-import publications from './publications.json';
 
 const Publications = () => (
   <div className={styles.main}>

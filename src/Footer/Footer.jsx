@@ -8,15 +8,14 @@ import IconLink from '../components/IconLink';
 const Footer = () => (
   <footer className={styles.main}>
     <address className={styles.address}>
-      <Button containerElement="a" href="mailto:matthias.fey@tu-dortmund.de">
-        Get in touch
-      </Button>
-      <br />
-      <span className={styles.email}>matthias.fey [at] tu-dortmund.de</span>
-      <br />
-      <span>Computer Science VII, University of Dortmund</span>
-      <br />
-      <span>Otto-Hahn-Str. 16, D-44227 Dortmund, Germany</span>
+      <div>
+        <Button containerElement="a" href="mailto:matthias.fey@tu-dortmund.de">
+          Get in touch
+        </Button>
+      </div>
+      <div className={styles.email}>matthias.fey [at] tu-dortmund.de</div>
+      <div>Computer Science VII, University of Dortmund</div>
+      <div>Otto-Hahn-Str. 16, D-44227 Dortmund, Germany</div>
       <div className={styles.icons}>
         <IconLink
           href="https://www.github.com/rusty1s"
@@ -29,7 +28,7 @@ const Footer = () => (
           title="Go to Medium"
         />
       </div>
-      <span>© {new Date().getFullYear()} Matthias Fey</span>
+      <div>© {new Date().getFullYear()} Matthias Fey</div>
     </address>
   </footer>
 );

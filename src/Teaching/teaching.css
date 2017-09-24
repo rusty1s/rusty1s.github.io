@@ -1,0 +1,4 @@
+.main {
+  composes: wrapper from '../compositions/wrapper.css';
+  text-align: center;
+}
