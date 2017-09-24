@@ -1,30 +1,25 @@
-.main {
-  background: red;
-  color: white;
-  cursor: pointer;
-}
+@value colors: '../../values/colors.css';
+@value secondary, primary-light, background-dark from colors;
 
-.button {
+.main {
+  cursor: pointer;
   display: inline-block;
   text-decoration: none;
-  color: #558aea;
+  color: secondary;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.8rem;
-  background: #dcdadd;
+  background: primary-light;
   padding: 0 1rem;
   white-space: nowrap;
   border-radius: 1.5rem;
   letter-spacing: 0.1rem;
   transition: all 0.2s;
-}
+  margin: 0 0 2rem;
 
-.button:hover {
-  text-decoration: none;
-  background: #558aea;
-  color: #fcfbfd;
-}
-
-.button:hover:active {
-  color: #dcdadd;
+  &:hover {
+    text-decoration: none;
+    background: secondary;
+    color: background-dark;
+  }
 }

@@ -18,8 +18,8 @@ const defaultProps = {
   vertical: false,
   wrap: false,
   center: false,
-  horizontalSpacing: '0px',
-  verticalSpacing: '0px',
+  horizontalSpacing: null,
+  verticalSpacing: null,
   children: null,
   className: null,
 };
@@ -43,8 +43,8 @@ const Grid = ({
       center && styles.center
     )}
     style={{
-      marginLeft: `-${horizontalSpacing}`,
-      marginTop: `-${verticalSpacing}`,
+      marginLeft: horizontalSpacing && `-${horizontalSpacing}`,
+      marginTop: verticalSpacing && `-${verticalSpacing}`,
     }}
     {...props}
   >

@@ -6,6 +6,7 @@
 }
 
 .image {
+  display: inline-block;
   width: 20rem;
   height: 20rem;
   background-image: url('./profile.png');
@@ -15,11 +16,20 @@
   margin: 0 0 2rem;
 }
 
+@media (width <= 522px) {
+  .profile {
+    text-align: center;
+
+    & > div {
+      flex-grow: 1;
+    }
+  }
+}
+
 .text {
   flex-basis: 30rem;
 }
 
 .vitae {
   text-align: center;
-  margin: 0 0 2rem;
 }

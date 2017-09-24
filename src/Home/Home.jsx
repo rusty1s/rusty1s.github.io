@@ -11,7 +11,7 @@ import Link from '../components/Link';
 
 const Home = () => (
   <div className={styles.main}>
-    <Grid wrap center horizontalSpacing="4rem">
+    <Grid wrap center horizontalSpacing="4rem" className={styles.profile}>
       <GridItem>
         <div className={styles.image} />
       </GridItem>
