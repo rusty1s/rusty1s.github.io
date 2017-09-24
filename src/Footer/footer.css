@@ -16,3 +16,9 @@
   font-weight: 500;
   text-transform: uppercase;
 }
+
+.icons {
+  & a:not(:last-child) {
+    margin-right: 2rem;
+  }
+}

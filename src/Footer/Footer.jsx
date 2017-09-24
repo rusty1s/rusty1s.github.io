@@ -17,13 +17,18 @@ const Footer = () => (
       <span>Computer Science VII, University of Dortmund</span>
       <br />
       <span>Otto-Hahn-Str. 16, D-44227 Dortmund, Germany</span>
-      <br />
-      <IconLink
-        href="https://www.github.com/rusty1s"
-        icon="github"
-        title="Go to Github"
-      />
-      <br />
+      <div className={styles.icons}>
+        <IconLink
+          href="https://www.github.com/rusty1s"
+          icon="github"
+          title="Go to Github"
+        />
+        <IconLink
+          href="https://medium.com/@rusty1s"
+          icon="medium"
+          title="Go to Medium"
+        />
+      </div>
       <span>© {new Date().getFullYear()} Matthias Fey</span>
     </address>
   </footer>

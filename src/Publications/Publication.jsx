@@ -15,15 +15,13 @@ class Publication extends Component {
       PropTypes.shape({
         name: PropTypes.string.isRequired,
         href: PropTypes.string.isRequired,
-      })
+      }).isRequired
     ),
-    bibtex: PropTypes.arrayOf(
-      PropTypes.shape({
-        type: PropTypes.string.isRequired,
-        id: PropTypes.string.isRequired,
-        content: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
-      })
-    ).isRequired,
+    bibtex: PropTypes.shape({
+      type: PropTypes.string.isRequired,
+      id: PropTypes.string.isRequired,
+      content: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
+    }).isRequired,
   };
 
   static defaultProps = {
