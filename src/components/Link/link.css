@@ -12,4 +12,8 @@
   text-decoration: none;
   cursor: pointer;
   display: inline;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }

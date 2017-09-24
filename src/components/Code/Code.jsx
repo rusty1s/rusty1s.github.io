@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 
-import './code.css';
+import styles from './code.css';
 
 const propTypes = {
   children: PropTypes.node,
@@ -15,7 +15,7 @@ const defaultProps = {
 };
 
 const Code = ({ children, className, ...props }) => (
-  <pre className={cx(className, 'code')} {...props}>
+  <pre className={cx(className, styles.main)} {...props}>
     {children}
   </pre>
 );

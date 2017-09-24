@@ -1,70 +1,14 @@
-import React, { Component } from 'react';
-import cx from 'classnames';
+import React from 'react';
 
-import './publications.css';
-import Link from '../components/Link';
-import Code from '../components/Code';
+import styles from './publications.css';
+
+import Publication from './Publication';
 import publications from './publications.json';
 
-class Publications extends Component {
-  state = {
-    openedBibtexs: [],
-  };
-
-  toggleBibtex = id => {
-    let { openedBibtexs } = this.state;
-    if (openedBibtexs.includes(id))
-      openedBibtexs = openedBibtexs.filter(idx => idx !== id);
-    else openedBibtexs = [...openedBibtexs, id];
-
-    this.setState({ openedBibtexs });
-  };
-
-  render() {
-    return (
-      <div className="publications">
-        {publications.map((p, id) => (
-          <section key={p.name} className="publication">
-            <header className="name">{p.name}</header>
-            {p.author && <div className="author">{p.author}</div>}
-            {p.description.map(des => (
-              <div key={des} className="description">
-                {des}
-              </div>
-            ))}
-            <footer>
-              [
-              {p.refs.map(ref => (
-                <span key={ref.name}>
-                  <Link href={ref.href}>{ref.name}</Link>
-                  {', '}
-                </span>
-              ))}
-              <Link
-                containerElement="button"
-                onClick={() => this.toggleBibtex(id)}
-              >
-                Bibtex
-              </Link>
-              ]
-            </footer>
-            <Code
-              className={cx(
-                'bibtex',
-                this.state.openedBibtexs.includes(id) && 'opened'
-              )}
-            >
-              <div>{`@${p.bibtex.type}{${p.bibtex.id},`}</div>
-              {p.bibtex.content.map(line => (
-                <div key={line}>{`  ${line},`}</div>
-              ))}
-              <div>{'}'}</div>
-            </Code>
-          </section>
-        ))}
-      </div>
-    );
-  }
-}
+const Publications = () => (
+  <div className={styles.main}>
+    {publications.map(p => <Publication key={p.name} {...p} />)}
+  </div>
+);
 
 export default Publications;

@@ -24,6 +24,11 @@ body {
   line-height: 3rem;
 }
 
+:global(#root) {
+  position: relative;
+  overflow-x: hidden;
+}
+
 :global(#root)::before {
   content: '';
   width: 100%;
@@ -35,22 +40,3 @@ body {
   z-index: -1;
   transform: translate(28%, -44%) rotate(35deg);
 }
-
-/* button { */
-/*   border: inherit; */
-/*   background: inherit; */
-/*   font-size: inherit; */
-/*   font-weight: inherit; */
-/*   padding: inherit; */
-/*   color: inherit; */
-/*   cursor: pointer; */
-/* } */
-
-/* a { */
-/*   text-decoration: none; */
-/*   color: #558aea; */
-/* } */
-
-/* a:hover { */
-/*   text-decoration: underline; */
-/* } */
