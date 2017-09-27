@@ -10,3 +10,4 @@
 * Projects
 * english vitae
 * color transition button
+* profile image retina
