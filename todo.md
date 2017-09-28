@@ -11,3 +11,6 @@
 * english vitae
 * color transition button
 * profile image retina
+* tests
+* add travis and codeclimste
+* add README
