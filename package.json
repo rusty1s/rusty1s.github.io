@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
+    "copy-to-clipboard": "^3.0.8",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",

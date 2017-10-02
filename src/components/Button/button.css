@@ -1,5 +1,5 @@
 @value colors: '../../values/colors.css';
-@value secondary, primary-light, background-dark from colors;
+@value secondary, secondary-dark, primary-light, background-dark from colors;
 
 .main {
   cursor: pointer;
@@ -21,5 +21,9 @@
     text-decoration: none;
     background: secondary;
     color: background-dark;
+
+    &:active {
+      background: secondary-dark;
+    }
   }
 }

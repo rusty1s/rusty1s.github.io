@@ -1,5 +1,5 @@
 @value colors: '../../values/colors.css';
-@value secondary from colors;
+@value secondary, secondary-dark from colors;
 
 .main {
   color: secondary;
@@ -12,8 +12,13 @@
   text-decoration: none;
   cursor: pointer;
   display: inline;
+  transition: all 0.2s;
 
   &:hover {
     text-decoration: underline;
+
+    &:active {
+      color: secondary-dark;
+    }
   }
 }
