@@ -3,6 +3,7 @@
 
 .main {
   composes: wrapper from '../compositions/wrapper.css';
+  margin: 0 0 2rem;
 }
 
 .image {

@@ -15,8 +15,8 @@
 
   & i {
     font-style: normal;
-    line-height: 3rem;
-    font-size: 3rem;
+    line-height: 6rem;
+    font-size: 4rem;
     transition: all 0.2s;
 
     &:hover {
