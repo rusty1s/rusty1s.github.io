@@ -4,17 +4,6 @@
   padding: 1rem 2rem;
   border-radius: 1.5rem;
   overflow-x: auto;
-  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
   position: relative;
-
-  &:hover .clipboard {
-    display: block;
-  }
-}
-
-.clipboard {
-  display: none;
-  position: absolute;
-  right: 2rem;
-  top: 1rem;
 }
