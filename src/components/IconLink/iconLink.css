@@ -12,12 +12,11 @@
   text-decoration: none;
   cursor: pointer;
   display: inline;
-  transition: all 0.2s;
+  line-height: 6rem;
+  font-size: 4rem;
 
   & i {
     font-style: normal;
-    line-height: 6rem;
-    font-size: 4rem;
     transition: all 0.2s;
 
     &:hover {
