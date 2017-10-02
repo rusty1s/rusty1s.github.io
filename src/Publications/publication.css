@@ -10,3 +10,25 @@
 .description {
   font-style: italic;
 }
+
+.arrow {
+  position: relative;
+  top: 0.22rem;
+  margin-right: 0.15rem;
+  transition: all 0.2s;
+}
+
+.isOpen {
+  transform: rotate(180deg);
+  top: 0.3rem;
+}
+
+.bibtex {
+  position: relative;
+}
+
+.clipboard {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}

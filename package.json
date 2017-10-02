@@ -4,7 +4,8 @@
     "postinstall": "js-dev-utils postinstall",
     "start": "js-dev-utils webpack dev",
     "build": "js-dev-utils webpack prod",
-    "lint": "js-dev-utils eslint ."
+    "lint-js": "js-dev-utils eslint .",
+    "lint-css": "js-dev-utils stylelint **/*.css"
   },
   "dependencies": {
     "classnames": "^2.2.5",

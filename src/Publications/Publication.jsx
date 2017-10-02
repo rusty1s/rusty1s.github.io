@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import cx from 'classnames';
+import copy from 'copy-to-clipboard';
 
 import styles from './publication.css';
 
 import Link from '../components/Link';
+import IconLink from '../components/IconLink';
+import Icon from '../components/Icon';
 import Code from '../components/Code';
+
+const getBibtexString = ({ type, id, content }) =>
+  `@${type}{${id},\n${content.map(line => `  ${line}`).join(',\n')},\n}`;
 
 class Publication extends Component {
   static propTypes = {
@@ -38,6 +45,8 @@ class Publication extends Component {
 
   render() {
     const { name, author, description, refs, bibtex } = this.props;
+    const { isOpen } = this.state;
+    const bibtexString = getBibtexString(bibtex);
 
     return (
       <section className={styles.main}>
@@ -57,15 +66,25 @@ class Publication extends Component {
             </span>
           ))}
           <Link containerElement="button" onClick={this.toggle}>
+            <Icon
+              name="angle-down"
+              className={cx(styles.arrow, isOpen && styles.isOpen)}
+            />
             Bibtex
           </Link>]
         </div>
-        {this.state.isOpen && (
-          <Code>
-            <div>{`@${bibtex.type}{${bibtex.id},`}</div>
-            {bibtex.content.map(line => <div key={line}>{`  ${line},`}</div>)}
-            <div>{'}'}</div>
-          </Code>
+        {isOpen && (
+          <div className={styles.bibtex}>
+            <Code>{bibtexString}</Code>
+            <IconLink
+              containerElement="button"
+              title="Copy to clipboard"
+              className={styles.clipboard}
+              onClick={() => copy(bibtexString)}
+            >
+              <Icon name="clipboard" />
+            </IconLink>
+          </div>
         )}
       </section>
     );

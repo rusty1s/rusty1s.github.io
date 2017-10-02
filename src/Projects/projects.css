@@ -1,0 +1,3 @@
+.main {
+  composes: wrapper from '../compositions/wrapper.css';
+}

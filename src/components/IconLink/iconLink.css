@@ -3,8 +3,6 @@
 
 .main {
   color: inherit;
-  font-weight: inherit;
-  font-size: inherit;
   padding: 0;
   border: none;
   outline: none;
@@ -12,19 +10,13 @@
   text-decoration: none;
   cursor: pointer;
   display: inline;
-  line-height: 6rem;
-  font-size: 4rem;
+  transition: all 0.2s;
 
-  & i {
-    font-style: normal;
-    transition: all 0.2s;
+  &:hover {
+    color: secondary;
 
-    &:hover {
-      color: secondary;
-
-      &:active {
-        color: secondary-dark;
-      }
+    &:active {
+      color: secondary-dark;
     }
   }
 }
