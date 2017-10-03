@@ -16,6 +16,10 @@ html {
 
 body {
   background: background;
+}
+
+body,
+button {
   color: primary;
   font-size: 1.8rem;
   font-family: Roboto, sans-serif;
