@@ -11,7 +11,7 @@
   cursor: pointer;
   display: inline;
   transition: all 0.2s;
-  font-size: inherit;
+  font-size: 100%;
 
   &:hover {
     color: secondary;

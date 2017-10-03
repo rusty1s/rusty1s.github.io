@@ -8,7 +8,8 @@
   color: secondary;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 112.5%;
+  font-family: Roboto, sans-serif;
   background: primary-light;
   padding: 0 1rem;
   white-space: nowrap;
