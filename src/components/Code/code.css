@@ -4,4 +4,5 @@
   padding: 1rem 2rem;
   border-radius: 1.5rem;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }

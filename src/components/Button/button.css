@@ -1,5 +1,5 @@
 @value colors: '../../values/colors.css';
-@value secondary, primary-light, background-dark from colors;
+@value secondary, secondary-dark, primary-light, background-dark from colors;
 
 .main {
   cursor: pointer;
@@ -8,7 +8,8 @@
   color: secondary;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 112.5%;
+  font-family: Roboto, sans-serif;
   background: primary-light;
   padding: 0 1rem;
   white-space: nowrap;
@@ -21,5 +22,9 @@
     text-decoration: none;
     background: secondary;
     color: background-dark;
+
+    &:active {
+      background: secondary-dark;
+    }
   }
 }

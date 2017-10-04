@@ -4,6 +4,7 @@ import styles from './footer.css';
 
 import Button from '../components/Button';
 import IconLink from '../components/IconLink';
+import Icon from '../components/Icon';
 
 const Footer = () => (
   <footer className={styles.main}>
@@ -17,16 +18,12 @@ const Footer = () => (
       <div>Computer Science VII, University of Dortmund</div>
       <div>Otto-Hahn-Str. 16, D-44227 Dortmund, Germany</div>
       <div className={styles.icons}>
-        <IconLink
-          href="https://www.github.com/rusty1s"
-          icon="github"
-          title="Go to Github"
-        />
-        <IconLink
-          href="https://medium.com/@rusty1s"
-          icon="medium"
-          title="Go to Medium"
-        />
+        <IconLink href="https://www.github.com/rusty1s" title="Go to Github">
+          <Icon name="github" big />
+        </IconLink>
+        <IconLink href="https://medium.com/@rusty1s" title="Go to Medium">
+          <Icon name="medium" big />
+        </IconLink>
       </div>
       <div>© {new Date().getFullYear()} Matthias Fey</div>
     </address>

@@ -3,6 +3,7 @@
 
 .main {
   composes: wrapper from '../compositions/wrapper.css';
+  margin-bottom: 2rem;
 }
 
 .image {
@@ -16,7 +17,7 @@
   margin: 0 0 2rem;
 }
 
-@media (min-device-pixel-ratio: 1.5),
+@media (-webkit-min-device-pixel-ratio: 1.5),
   (min-resolution: 144dpi),
   (min-resolution: 1.5dppx) {
   .image {

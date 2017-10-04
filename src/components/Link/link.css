@@ -1,10 +1,10 @@
 @value colors: '../../values/colors.css';
-@value secondary from colors;
+@value secondary, secondary-dark from colors;
 
 .main {
   color: secondary;
-  font-weight: inherit;
-  font-size: inherit;
+  font-weight: 300;
+  font-size: 100%;
   padding: 0;
   border: none;
   outline: none;
@@ -12,8 +12,14 @@
   text-decoration: none;
   cursor: pointer;
   display: inline;
+  transition: all 0.2s;
+  font-family: Roboto, sans-serif;
 
   &:hover {
     text-decoration: underline;
+
+    &:active {
+      color: secondary-dark;
+    }
   }
 }

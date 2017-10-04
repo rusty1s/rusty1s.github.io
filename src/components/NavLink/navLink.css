@@ -1,14 +1,36 @@
+@value colors: '../../values/colors.css';
+@value secondary, secondary-dark from colors;
+
 .main {
-  font-size: 2.2rem;
+  font-size: 137.5%;
   line-height: 3rem;
   text-decoration: none;
   color: inherit;
-  display: block;
+  display: inline;
   cursor: pointer;
+  font-family: Roboto, sans-serif;
+  transition: color 0.2s;
+
+  &:hover {
+    color: secondary;
+
+    &:active {
+      color: secondary-dark;
+    }
+  }
 }
 
 .active {
   font-weight: 500;
-  font-size: 4.2rem;
+  font-size: 262.5%;
   line-height: 5rem;
+  cursor: default;
+
+  &:hover {
+    color: inherit;
+
+    &:active {
+      color: inherit;
+    }
+  }
 }

@@ -16,11 +16,21 @@ html {
 
 body {
   background: background;
+}
+
+body,
+button {
   color: primary;
   font-size: 1.8rem;
   font-family: Roboto, sans-serif;
   font-weight: 300;
   line-height: 3rem;
+}
+
+:global(#root) {
+  overflow-x: hidden;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
 }
 
 :global(#root)::before {

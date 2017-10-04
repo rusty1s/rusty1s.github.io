@@ -1,10 +1,8 @@
 @value colors: '../../values/colors.css';
-@value secondary from colors;
+@value secondary, secondary-dark from colors;
 
 .main {
   color: inherit;
-  font-weight: inherit;
-  font-size: inherit;
   padding: 0;
   border: none;
   outline: none;
@@ -12,15 +10,14 @@
   text-decoration: none;
   cursor: pointer;
   display: inline;
+  transition: all 0.2s;
+  font-size: 100%;
 
-  & i {
-    font-style: normal;
-    line-height: 3rem;
-    font-size: 3rem;
-    transition: all 0.2s;
+  &:hover {
+    color: secondary;
 
-    &:hover {
-      color: secondary;
+    &:active {
+      color: secondary-dark;
     }
   }
 }
