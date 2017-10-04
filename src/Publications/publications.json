@@ -9,7 +9,8 @@
     "refs": [
       {
         "name": "Link",
-        "href": "http://www.sciencedirect.com/science/article/pii/S0165011416300999"
+        "href":
+          "http://www.sciencedirect.com/science/article/pii/S0165011416300999"
       }
     ],
     "bibtex": {
@@ -29,14 +30,14 @@
     }
   },
   {
-    "name": "Convolutional Neural Networks auf Graphrepräsentationen von Bildern",
-    "description": [
-      "M.Sc. Thesis (2017), TU Dortmund, Computer Science VII"
-    ],
+    "name":
+      "Convolutional Neural Networks auf Graphrepräsentationen von Bildern",
+    "description": ["M.Sc. Thesis (2017), TU Dortmund, Computer Science VII"],
     "refs": [
       {
         "name": "PDF (3.4 MB)",
-        "href": "https://github.com/rusty1s/deep-learning-on-graphs/raw/master/masterthesis/main.pdf"
+        "href":
+          "https://github.com/rusty1s/deep-learning-on-graphs/raw/master/masterthesis/main.pdf"
       },
       {
         "name": "Source Code",
@@ -47,7 +48,7 @@
       "type": "mastersthesis",
       "id": "Fey2017",
       "content": [
-        "title={Convolutional Neural Networks auf Graphrepr{\\\"a}sentationen von Bildern}",
+        "title={{C}onvolutional {N}eural {N}etworks auf {G}raphrepr{\\\"a}sentationen von {B}ildern}",
         "author={Matthias Fey}",
         "school={Technische Universit{\\\"a}t Dortmund}",
         "year={2017}"
@@ -55,21 +56,21 @@
     }
   },
   {
-    "name": "Qualitative Semantiken für DAGs – ein Vergleich von OCF- und CP-Netzwerken",
-    "description": [
-      "B.Sc. Thesis (2013), TU Dortmund, Computer Science I"
-    ],
+    "name":
+      "Qualitative Semantiken für DAGs – ein Vergleich von OCF- und CP-Netzwerken",
+    "description": ["B.Sc. Thesis (2013), TU Dortmund, Computer Science I"],
     "refs": [
       {
         "name": "PDF (0.4 MB)",
-        "href": "https://github.com/rusty1s/OCF-andCP-Networks/raw/master/thesis.pdf"
+        "href":
+          "https://github.com/rusty1s/OCF-andCP-Networks/raw/master/thesis.pdf"
       }
     ],
     "bibtex": {
       "type": "mastersthesis",
       "id": "Fey2013",
       "content": [
-        "title={Qualitative Semantiken f{\\\"u}r DAGs –- ein Vergleich von OCF- und CP-Netzwerken}",
+        "title={{Q}ualitative {S}emantiken f{\\\"u}r DAGs –- ein {V}ergleich von OCF- und CP-{N}etzwerken}",
         "author={Matthias Fey}",
         "type={Bachelor-Thesis}",
         "school={Technische Universit{\\\"a}t Dortmund}",
