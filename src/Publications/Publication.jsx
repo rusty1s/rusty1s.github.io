@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
+import AnimateHeight from 'react-animate-height';
 import copy from 'copy-to-clipboard';
 
 import styles from './publication.css';
@@ -73,7 +74,7 @@ class Publication extends Component {
             Bibtex
           </Link>]
         </div>
-        {isOpen && (
+        <AnimateHeight duration={200} height={isOpen ? 'auto' : 0}>
           <div className={styles.bibtex}>
             <Code>{bibtexString}</Code>
             <IconLink
@@ -85,7 +86,7 @@ class Publication extends Component {
               <Icon name="clipboard" />
             </IconLink>
           </div>
-        )}
+        </AnimateHeight>
       </section>
     );
   }

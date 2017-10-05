@@ -1,6 +1,6 @@
 # ToDO
 
-* Page transitions
+* Copy to clipboard success message
 * Cite Transitions
 * Projects
 
