@@ -1,13 +1,12 @@
 .main {
   height: 3rem;
-  font-style: normal;
-  font-size: 2.6rem;
+  font-size: 2.6rem !important;
   padding-top: 0.2rem;
   box-sizing: border-box;
 }
 
 .big {
-  width: 6rem;
-  font-size: 5.2rem;
+  height: 6rem;
+  font-size: 5.2rem !important;
   padding-top: 0.4rem;
 }
