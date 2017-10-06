@@ -12,8 +12,6 @@
 }
 
 .arrow {
-  position: relative;
-  margin-right: 0.15rem;
   transition: all 0.2s;
 }
 
@@ -27,6 +25,6 @@
 
 .clipboard {
   position: absolute;
-  top: 1rem;
+  bottom: 1rem;
   right: 2rem;
 }

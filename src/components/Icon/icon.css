@@ -1,9 +1,23 @@
 .main {
+  display: inline-block;
+  height: 3rem;
   font-style: normal;
-  font-size: 150%;
+  font-size: 2.6rem;
+  /* background: red; */
+  /* position: relative; */
+
+  &::before {
+    /* background: yellow; */
+    /* display: inline-block; */
+    /* margin-top: 0.2rem; */
+  }
 }
 
 .big {
-  line-height: 6rem;
-  font-size: 250%;
+  height: 6rem;
+  font-size: 5.2rem;
+
+  &::before {
+    /* height: 6rem; */
+  }
 }

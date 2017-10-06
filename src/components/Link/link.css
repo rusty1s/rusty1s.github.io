@@ -11,9 +11,8 @@
   background: none;
   text-decoration: none;
   cursor: pointer;
-  display: inline;
+  display: inline-block;
   transition: all 0.2s;
-  font-family: Roboto, sans-serif;
 
   &:hover {
     text-decoration: underline;

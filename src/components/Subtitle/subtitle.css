@@ -2,8 +2,7 @@
 @value secondary from colors;
 
 .main {
-  font-size: 2.2rem;
-  line-height: 3rem;
+  font-size: 2.6rem;
   font-weight: inherit;
   margin: 0 0 2rem;
 }

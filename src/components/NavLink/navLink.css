@@ -2,13 +2,11 @@
 @value secondary, secondary-dark from colors;
 
 .main {
-  font-size: 137.5%;
-  line-height: 3rem;
+  font-size: 2.6rem;
   text-decoration: none;
   color: inherit;
-  display: inline;
+  display: inline-block;
   cursor: pointer;
-  font-family: Roboto, sans-serif;
   transition: color 0.2s;
 
   &:hover {
@@ -22,7 +20,7 @@
 
 .active {
   font-weight: 500;
-  font-size: 262.5%;
+  font-size: 4.8rem;
   line-height: 5rem;
   cursor: default;
 

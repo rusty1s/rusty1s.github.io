@@ -9,9 +9,8 @@
   background: none;
   text-decoration: none;
   cursor: pointer;
-  display: inline;
+  display: inline-block;
   transition: all 0.2s;
-  font-size: 100%;
 
   &:hover {
     color: secondary;
