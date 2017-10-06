@@ -12,6 +12,8 @@
 }
 
 .arrow {
+  float: left;
+  margin-right: 0.4rem;
   transition: all 0.2s;
 }
 
