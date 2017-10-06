@@ -7,6 +7,8 @@
   /* position: relative; */
 
   &::before {
+    height: 3rem;
+    font-size: 2.6rem;
     /* background: yellow; */
     /* display: inline-block; */
     /* margin-top: 0.2rem; */
@@ -18,6 +20,8 @@
   font-size: 5.2rem;
 
   &::before {
+    height: 6rem;
+    font-size: 5.2rem;
     /* height: 6rem; */
   }
 }
