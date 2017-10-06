@@ -18,11 +18,11 @@ const defaultProps = {
 const Icon = ({ name, big, className, ...props }) => (
   <i
     className={cx(
+      'fa',
+      `fa-${name}`,
       className,
       styles.main,
-      big && styles.big,
-      'fa',
-      `fa-${name}`
+      big && styles.big
     )}
     {...props}
   />
