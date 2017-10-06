@@ -1,0 +1,16 @@
+.main {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  z-index: -1;
+}
+
+.content {
+  padding-bottom: 100%;
+  background-image: url('./background.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  transform: translate(28%, -44%) rotate(35deg);
+}

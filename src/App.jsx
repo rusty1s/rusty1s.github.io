@@ -2,6 +2,7 @@ import React from 'react';
 import { HashRouter as Router, Route } from 'react-router-dom';
 
 import { Grid, GridItem } from './components/Grid';
+import Background from './Background';
 import Nav from './Nav';
 import Footer from './Footer';
 
@@ -13,6 +14,7 @@ import Teaching from './Teaching';
 const App = () => (
   <Router>
     <Grid vertical>
+      <Background />
       <GridItem>
         <Nav />
       </GridItem>
