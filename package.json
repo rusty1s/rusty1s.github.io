@@ -12,7 +12,7 @@
     "copy-to-clipboard": "^3.0.8",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
-    "react-animate-height": "^0.10.4",
+    "react-animate-height": "^0.10.5",
     "react-dom": "^16.0.0",
     "react-router-dom": "^4.1.2"
   },
