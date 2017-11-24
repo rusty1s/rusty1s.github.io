@@ -21,6 +21,9 @@ const Footer = () => (
         <IconLink href="https://www.github.com/rusty1s" title="Go to Github">
           <Icon name="github" big />
         </IconLink>
+        <IconLink href="https://twitter.com/rusty1s" title="Go to Twitter">
+          <Icon name="twitter" big />
+        </IconLink>
         <IconLink href="https://medium.com/@rusty1s" title="Go to Medium">
           <Icon name="medium" big />
         </IconLink>
