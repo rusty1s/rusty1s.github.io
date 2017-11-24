@@ -20,7 +20,7 @@ const Home = () => (
         <Subtitle>
           PhD candidate
           <br />
-          University of Dortmund
+          TU Dortmund University
         </Subtitle>
       </GridItem>
     </Grid>
@@ -28,7 +28,7 @@ const Home = () => (
       <GridItem grow shrink className={styles.text}>
         <Paragraph>
           {`I'm a first-year PhD student in Machine Learning on graphs at the
-          University of Dortmund. My main area of interest is the generalization
+          TU Dortmund University. My main area of interest is the generalization
           of Deep Learning methods to arbitrary Euclidean and non-Euclidean
           structured data.`}
         </Paragraph>
