@@ -15,7 +15,7 @@ const Footer = () => (
         </Button>
       </div>
       <div className={styles.email}>matthias.fey [at] tu-dortmund.de</div>
-      <div>Computer Science VII, University of Dortmund</div>
+      <div>Computer Science VII, TU Dortmund University</div>
       <div>Otto-Hahn-Str. 16, D-44227 Dortmund, Germany</div>
       <div className={styles.icons}>
         <IconLink href="https://www.github.com/rusty1s" title="Go to Github">
