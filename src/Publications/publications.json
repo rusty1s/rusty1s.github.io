@@ -1,5 +1,37 @@
 [
   {
+    "name":
+      "SplineCNN: Fast Geometric Deep Learning with Continuous B-Spline Kernels",
+    "author":
+      "Matthias Fey*, Jan Eric Lenssen*, Frank Weichert, Heinrich Müller",
+    "description": ["arXiv:1711.08920 (2017)", "*equal contribution"],
+    "refs": [
+      {
+        "name": "Link",
+        "href": "https://arxiv.org/abs/1711.08920"
+      },
+      {
+        "name": "PDF (4.8MB)",
+        "href": "https://arxiv.org/pdf/1711.08920.pdf"
+      },
+      {
+        "name": "Code",
+        "href": "https://github.com/rusty1s/pytorch_geometric"
+      }
+    ],
+    "bibtex": {
+      "type": "article",
+      "id": "Fey2017",
+      "content": [
+        "title={{SplineCNN}: Fast Geometric Deep Learning with Continuous B-Spline Kernels}",
+        "author={Matthias Fey and {Jan Eric} Lenssen and Frank Weichert and Heinrich M{\\\"u}ller}",
+        "journal={CoRR}",
+        "volume={abs/1711.08920}",
+        "year={2017}"
+      ]
+    }
+  },
+  {
     "name": "CP- and OCF-networks – a comparison",
     "author": "Christian Eichhorn, Matthias Fey, Gabriele Kern-Isberner",
     "description": [
@@ -17,7 +49,7 @@
       "type": "article",
       "id": "EichhornFeyKernIsberner2016",
       "content": [
-        "title={CP- and OCF-networks -- a comparison}",
+        "title={{CP}- and {OCF}-networks -- a comparison}",
         "author={Christian Eichhorn and Matthias Fey and Gabriele {Kern-Isberner}}",
         "journal={Fuzzy Sets and Systems}",
         "year={2016}",
@@ -40,7 +72,7 @@
           "https://github.com/rusty1s/deep-learning-on-graphs/raw/master/masterthesis/main.pdf"
       },
       {
-        "name": "Source Code",
+        "name": "Code",
         "href": "https://github.com/rusty1s/embedded_gcnn"
       }
     ],
@@ -48,7 +80,7 @@
       "type": "mastersthesis",
       "id": "Fey2017",
       "content": [
-        "title={{C}onvolutional {N}eural {N}etworks auf {G}raphrepr{\\\"a}sentationen von {B}ildern}",
+        "title={{Convolutional Neural Networks auf Graphrepr{\\\"a}sentationen von Bildern}}",
         "author={Matthias Fey}",
         "school={Technische Universit{\\\"a}t Dortmund}",
         "year={2017}"
@@ -70,7 +102,7 @@
       "type": "mastersthesis",
       "id": "Fey2013",
       "content": [
-        "title={{Q}ualitative {S}emantiken f{\\\"u}r {DAG}s –- ein {V}ergleich von {OCF}- und {CP}-{N}etzwerken}",
+        "title={{Qualitative Semantiken f{\\\"u}r DAGs –- ein Vergleich von OCF- und CP-Netzwerken}}",
         "author={Matthias Fey}",
         "type={Bachelor-Thesis}",
         "school={Technische Universit{\\\"a}t Dortmund}",
