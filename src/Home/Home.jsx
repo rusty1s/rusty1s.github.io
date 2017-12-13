@@ -48,10 +48,7 @@ const Home = () => (
           {` page.`}
         </Paragraph>
         <div className={styles.vitae}>
-          <Button
-            containerElement="a"
-            href="http://rusty1s.github.io/curriculum-vitae/german.pdf"
-          >
+          <Button containerElement="a" href="">
             Curriculum vitae
           </Button>
         </div>
