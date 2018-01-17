@@ -1,5 +1,13 @@
 [
   {
+    "name": "Architecture & Implementation of Database Systems",
+    "chair": "Computer Science VI",
+    "professor": "Prof. Dr. Jens Teubner",
+    "season": "Spring",
+    "year": "2018",
+    "href": "http://dbis.cs.tu-dortmund.de/cms/de/lehre/ss18/arch-dbms"
+  },
+  {
     "name": "Mensch-Maschine-Interaktion",
     "chair": "Computer Science VII",
     "professor": "Prof. Dr. Heinrich Müller",
