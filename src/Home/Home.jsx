@@ -42,16 +42,18 @@ const Home = () => (
         <Paragraph>
           {`In my freetime I'm passioned about new web technologies and
           community-driven open-source development. I'm an enthusiast for
-          node.js, CSS, React, Arch Linux and Vim. All my contributions can be
-          found at my `}
+          PyTorch, node.js, CSS, React, macOS, Arch Linux and Vim. All my
+          contributions can be found at my `}
           <Link href="https://www.github.com/rusty1s">Github</Link>
           {` page.`}
         </Paragraph>
+        {/*
         <div className={styles.vitae}>
           <Button containerElement="a" href="">
             Curriculum vitae
           </Button>
         </div>
+        */}
       </GridItem>
     </Grid>
   </div>
