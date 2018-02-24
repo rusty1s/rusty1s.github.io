@@ -1,10 +1,38 @@
 [
   {
     "name":
+      "Recognizing Cuneiform Signs Using Graph Based Methods",
+    "author":
+      "Nils M. Kriege, Matthias Fey, Denis Fisseler, Petra Mutzel, Frank Weichert",
+    "description": ["arXiv:1802.05908 (2018)"],
+    "refs": [
+      {
+        "name": "Link",
+        "href": "https://arxiv.org/abs/1802.05908"
+      },
+      {
+        "name": "PDF (2.5MB)",
+        "href": "https://arxiv.org/pdf/1802.05908.pdf"
+      }
+    ],
+    "bibtex": {
+      "type": "article",
+      "id": "Kriege/etal/2018",
+      "content": [
+        "title={Recognizing Cuneiform Signs Using Graph Based Methods}",
+        "author={Kriege, {Nils M.} and Fey, Matthias and Fisseler, Denis and Mutzel, Petra and Weichert, Frank}",
+        "journal={CoRR}",
+        "volume={abs/1802.05908}",
+        "year={2018}"
+      ]
+    }
+  },
+  {
+    "name":
       "SplineCNN: Fast Geometric Deep Learning with Continuous B-Spline Kernels",
     "author":
       "Matthias Fey*, Jan Eric Lenssen*, Frank Weichert, Heinrich Müller",
-    "description": ["arXiv:1711.08920 (2017)", "*equal contribution"],
+    "description": ["Computer Vision and Pattern Recognition (2018)", "*equal contribution"],
     "refs": [
       {
         "name": "Link",
@@ -20,14 +48,13 @@
       }
     ],
     "bibtex": {
-      "type": "article",
-      "id": "Fey2017",
+      "type": "inproceedings",
+      "id": "Fey/etal/2018",
       "content": [
         "title={{SplineCNN}: Fast Geometric Deep Learning with Continuous {B}-Spline Kernels}",
         "author={Matthias Fey and {Jan Eric} Lenssen and Frank Weichert and Heinrich M{\\\"u}ller}",
-        "journal={CoRR}",
-        "volume={abs/1711.08920}",
-        "year={2017}"
+        "booktitle={Computer Vision and Pattern Recognition (CVPR)}",
+        "year={2018}"
       ]
     }
   },
