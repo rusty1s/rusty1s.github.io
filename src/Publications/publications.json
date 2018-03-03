@@ -4,7 +4,7 @@
       "Recognizing Cuneiform Signs Using Graph Based Methods",
     "author":
       "Nils M. Kriege, Matthias Fey, Denis Fisseler, Petra Mutzel, Frank Weichert",
-    "description": ["arXiv:1802.05908 (2018)"],
+    "description": ["Proceedings of Machine Learning Research (2018)"],
     "refs": [
       {
         "name": "Link",
@@ -16,13 +16,12 @@
       }
     ],
     "bibtex": {
-      "type": "article",
+      "type": "inproceedings",
       "id": "Kriege/etal/2018",
       "content": [
         "title={Recognizing Cuneiform Signs Using Graph Based Methods}",
         "author={Kriege, {Nils M.} and Fey, Matthias and Fisseler, Denis and Mutzel, Petra and Weichert, Frank}",
-        "journal={CoRR}",
-        "volume={abs/1802.05908}",
+        "booktitle={Proceedings of Machine Learning Research (PMLR)}",
         "year={2018}"
       ]
     }
@@ -32,7 +31,7 @@
       "SplineCNN: Fast Geometric Deep Learning with Continuous B-Spline Kernels",
     "author":
       "Matthias Fey*, Jan Eric Lenssen*, Frank Weichert, Heinrich Müller",
-    "description": ["Computer Vision and Pattern Recognition (2018)", "*equal contribution"],
+    "description": ["IEEE Conference on Computer Vision and Pattern Recognition (2018)", "*equal contribution"],
     "refs": [
       {
         "name": "Link",
@@ -53,7 +52,7 @@
       "content": [
         "title={{SplineCNN}: Fast Geometric Deep Learning with Continuous {B}-Spline Kernels}",
         "author={Matthias Fey and {Jan Eric} Lenssen and Frank Weichert and Heinrich M{\\\"u}ller}",
-        "booktitle={Computer Vision and Pattern Recognition (CVPR)}",
+        "booktitle={{IEEE} Conference on Computer Vision and Pattern Recognition (CVPR)}",
         "year={2018}"
       ]
     }
@@ -74,7 +73,7 @@
     ],
     "bibtex": {
       "type": "article",
-      "id": "EichhornFeyKernIsberner2016",
+      "id": "Eichhorn/etal/2016",
       "content": [
         "title={{CP}- and {OCF}-networks -- a comparison}",
         "author={Christian Eichhorn and Matthias Fey and Gabriele {Kern-Isberner}}",
@@ -83,8 +82,7 @@
         "volume={298}",
         "pages={109--127}",
         "publisher={Elsevier Science Publishers}",
-        "note={Special Issue on Graded Logical Approaches and Their Applications}",
-        "address={Essex, UK}"
+        "note={Special Issue on Graded Logical Approaches and Their Applications}"
       ]
     }
   },
@@ -105,7 +103,7 @@
     ],
     "bibtex": {
       "type": "mastersthesis",
-      "id": "Fey2017",
+      "id": "Fey/2017",
       "content": [
         "title={{Convolutional Neural Networks auf Graphrepr{\\\"a}sentationen von Bildern}}",
         "author={Matthias Fey}",
@@ -127,7 +125,7 @@
     ],
     "bibtex": {
       "type": "mastersthesis",
-      "id": "Fey2013",
+      "id": "Fey/2013",
       "content": [
         "title={{Qualitative Semantiken f{\\\"u}r DAGs –- ein Vergleich von OCF- und CP-Netzwerken}}",
         "author={Matthias Fey}",
