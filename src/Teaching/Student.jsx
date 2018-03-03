@@ -15,7 +15,7 @@ const Student = props => (
     <div className={styles.name}>{props.name}</div>
     <div>{props.author}</div>
     <div className={styles.description}>
-      {props.isMaster ? "Master's" : "Bachelor's"} thesis ({props.year})
+      {props.isMaster ? "Master's" : "Bachelor's"} Thesis ({props.year})
     </div>
   </div>
 );

@@ -51,7 +51,7 @@
       "id": "Fey/etal/2018",
       "content": [
         "title={{SplineCNN}: Fast Geometric Deep Learning with Continuous {B}-Spline Kernels}",
-        "author={Matthias Fey and {Jan Eric} Lenssen and Frank Weichert and Heinrich M{\\\"u}ller}",
+        "author={Fey, Matthias and Lenssen, {Jan Eric} and Weichert, Frank and M{\\\"u}ller, Heinrich}",
         "booktitle={{IEEE} Conference on Computer Vision and Pattern Recognition (CVPR)}",
         "year={2018}"
       ]
@@ -76,7 +76,7 @@
       "id": "Eichhorn/etal/2016",
       "content": [
         "title={{CP}- and {OCF}-networks -- a comparison}",
-        "author={Christian Eichhorn and Matthias Fey and Gabriele {Kern-Isberner}}",
+        "author={Eichhorn, Christian and Fey, Matthias and {kern-Isberner}, Gabriele}",
         "journal={Fuzzy Sets and Systems}",
         "year={2016}",
         "volume={298}",
@@ -89,7 +89,7 @@
   {
     "name":
       "Convolutional Neural Networks auf Graphrepräsentationen von Bildern",
-    "description": ["M.Sc. Thesis (2017), TU Dortmund, Computer Science VII"],
+    "description": ["Master's Thesis (2017), TU Dortmund, Computer Science VII"],
     "refs": [
       {
         "name": "PDF (3.4 MB)",
@@ -106,7 +106,7 @@
       "id": "Fey/2017",
       "content": [
         "title={{Convolutional Neural Networks auf Graphrepr{\\\"a}sentationen von Bildern}}",
-        "author={Matthias Fey}",
+        "author={Fey, Matthias}",
         "school={Technische Universit{\\\"a}t Dortmund}",
         "year={2017}"
       ]
@@ -115,7 +115,7 @@
   {
     "name":
       "Qualitative Semantiken für DAGs – ein Vergleich von OCF- und CP-Netzwerken",
-    "description": ["B.Sc. Thesis (2013), TU Dortmund, Computer Science I"],
+    "description": ["Bachelor's Thesis (2013), TU Dortmund, Computer Science I"],
     "refs": [
       {
         "name": "PDF (0.4 MB)",
@@ -128,7 +128,7 @@
       "id": "Fey/2013",
       "content": [
         "title={{Qualitative Semantiken f{\\\"u}r DAGs –- ein Vergleich von OCF- und CP-Netzwerken}}",
-        "author={Matthias Fey}",
+        "author={Fey, Matthias}",
         "type={Bachelor-Thesis}",
         "school={Technische Universit{\\\"a}t Dortmund}",
         "year={2013}"
