@@ -1,0 +1,12 @@
+.main {
+  text-align: center;
+  margin: 0 0 4rem;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.description {
+  font-style: italic;
+}
