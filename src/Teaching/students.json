@@ -1,8 +1,20 @@
 [
   {
+    "name": "Einsatz tiefer neuronaler Netze zur Gestendetektion unter Beachtung hybrider Datenrepräsentation",
+    "author": "Janina Mücke",
+    "year": "2018",
+    "isMaster": true
+  },
+  {
     "name": "Extending SplineCNN by Structural Graph Features for Cheminformatics",
     "author": "Mohamad Reza Nirumand Alankesh",
-    "year": "2017",
+    "year": "2018",
     "isMaster": false
+  },
+  {
+    "name": "Klassifikation dynamischer Raum-Zeit bezogener Graphen mittels tiefer neuronaler Netze",
+    "author": "Jonas Langenberg",
+    "year": "2018",
+    "isMaster": true
   }
 ]
