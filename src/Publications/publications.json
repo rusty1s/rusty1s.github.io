@@ -1,6 +1,34 @@
 [
   {
     "name":
+      "Group Equivariant Capsule Networks",
+    "author":
+      "Jan E. Lenssen, Matthias Fey, Pascal Libuschweski",
+    "description": ["arXiv:1806.05086 (2018)"],
+    "refs": [
+      {
+        "name": "Link",
+        "href": "https://arxiv.org/abs/1806.05086"
+      },
+      {
+        "name": "PDF (2.5MB)",
+        "href": "https://arxiv.org/pdf/1806.05086.pdf"
+      }
+    ],
+    "bibtex": {
+      "type": "article",
+      "id": "Lenssen/etal/2018",
+      "content": [
+        "title={Group Equivariant Capsule Networks}",
+        "author={Lenssen, {Jan Eric} and Fey, Matthias and Pascal, Libuschweski}",
+        "journal={CoRR}",
+        "volumne={abs/1806.05086}",
+        "year={2018}"
+      ]
+    }
+  },
+  {
+    "name":
       "Recognizing Cuneiform Signs Using Graph Based Methods",
     "author":
       "Nils M. Kriege, Matthias Fey, Denis Fisseler, Petra Mutzel, Frank Weichert",
