@@ -3,7 +3,7 @@
     "name":
       "Group Equivariant Capsule Networks",
     "author":
-      "Jan Eric Lenssen, Matthias Fey, Pascal Libuschweski",
+      "Jan Eric Lenssen, Matthias Fey, Pascal Libuschewski",
     "description": ["arXiv:1806.05086 (2018)"],
     "refs": [
       {
@@ -20,7 +20,7 @@
       "id": "Lenssen/etal/2018",
       "content": [
         "title={Group Equivariant Capsule Networks}",
-        "author={Lenssen, {Jan Eric} and Fey, Matthias and Libuschweski, Pascal}",
+        "author={Lenssen, {Jan Eric} and Fey, Matthias and Libuschewski, Pascal}",
         "journal={CoRR}",
         "volume={abs/1806.05086}",
         "year={2018}"
