@@ -1,0 +1,175 @@
+\documentclass[letterpaper,11pt]{article}
+\newlength{\outerbordwidth}
+
+\usepackage[a4paper,left=2.5cm,right=2.5cm,bottom=2cm,top=2cm]{geometry}
+
+\usepackage{style}
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\usepackage[svgnames]{xcolor}
+\usepackage{framed}
+\usepackage{tocloft}
+\usepackage{etoolbox}
+\usepackage{tabularx}
+\robustify\cftdotfill
+\usepackage{hyperref}       % hyperlinks
+
+\usepackage{fontawesome}
+
+\title{Lebenslauf}
+
+\author{Matthias Fey\\
+Von-der-Recke-Str. 9\\
+\faBirthdayCake 44137 Dortmund\\
+\texttt{matthias.fey@tu-dortmund.de}
+}
+
+\setlength{\outerbordwidth}{3pt}  % Width of border outside of title bars
+\definecolor{shadecolor}{gray}{0.75}  % Outer background color of title bars (0 = black, 1 = white)
+\definecolor{shadecolorB}{gray}{0.93}  % Inner background color of title bars
+
+\newcommand{\resheading}[1]{
+  \parbox{\textwidth}{\setlength{\FrameSep}{\outerbordwidth}
+    \begin{shaded}
+\setlength{\fboxsep}{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{4pt}\fcolorbox{shadecolorB}{shadecolorB}{\textbf{\sffamily{\mbox{~}\makebox[6.762in][l]{\large #1} \vphantom{p\^{E}}}}}}
+    \end{shaded}
+  }\vspace{-5pt}
+}
+
+\newcommand{\ressubheading}[2]{
+\begin{tabularx}{\textwidth}{Xr}
+  #1 & #2 \\
+\end{tabularx}
+}
+
+\begin{document}
+
+\begin{tabularx}{\textwidth}{Xr}
+  \textbf{\huge Matthias Fey}\\
+  \vspace{0.1cm}
+  \faMapMarker~Von-der-Recke-Str. 9, 44137 Dortmund\\
+  \faEnvelope~\url{matthias.fey@tu-dortmund.de}\\
+  \vspace{0.1cm}
+\end{tabularx}
+
+\resheading{Persönliches}
+
+\begin{tabularx}{\textwidth}{XXX}
+  \faBirthdayCake~02.06.1990 & \faMapMarker~Unna & \faMale~ledig\\
+\end{tabularx}
+
+\resheading{Studium}
+
+\ressubheading{\textbf{Doktorand} an der TU Dortmund, Fakultät Informatik}{\faCalendar~\emph{2017 - heute}}
+\begin{itemize}
+  \item Betreuerin: Prof.\ Dr.\ Petra Mutzel
+  \item Arbeitstitel: \emph{Geometric Deep Learning: Algorithms \& Applications}
+\end{itemize}
+\ressubheading{\textbf{Master of Science} an der TU Dortmund, Fakultät Informatik}{\faCalendar~\emph{2010 - 2013}}
+\ressubheading{\textbf{Bachelor of Science} an der TU Dortmund, Fakultät Informatik}{\faCalendar~\emph{2013 - 2017}}
+
+\resheading{Schulausbildung}
+
+\ressubheading{\textbf{Abitur} am Pestalozzi Gymnasium Unna}{\faCalendar~\emph{2000 - 2009}}
+\ressubheading{Osterfeldschule Unna}{\faCalendar~\emph{1996 - 2000}}
+
+\resheading{Taetigkeiten}
+
+\ressubheading{\textbf{Software-Entwickler} bei Comline, Dortmund (Werkstudent)}{\faCalendar~\emph{2013 - 2017}}
+\ressubheading{\textbf{Zivildienstleistender} im Katharinen Hospital Unna}{\faCalendar~\emph{2009 - 2010}}
+
+\resheading{Veroeffentlichungen}
+
+\begin{tabular}{p{3cm}p{13cm}}
+2016 & Christian Eichhorn, Matthias Fey, Gabriele Kern-Isberner\\
+     & \textit{CP- and OCF-networks – A Comparison}\\
+     & Fuzzy Sets and Systems, Volume 298: Special Issue on Graded Logical Approaches and Their Applications\\
+2018 & Matthias Fey, Jan Eric Lenssen, Frank Weichert, Heinrich Müller\\
+     & \textit{SplineCNN: Fast Geometric Deep Learning with Continuous B-Spline Kernels}\\
+     & IEEE Conference on Computer Vision and Pattern Recognition (CVPR)\\
+2018 & Nils M. Kriege, Matthias Fey, Denis Fisseler, Petra Mutzel, Frank Weichert\\
+     & \textit{Recognizing Cuneiform Signs Using Graph Based Methods}\\
+     & International Workshop on Cost-Sensitive Learning (COST), SIAM International Conference on Data Mining (SDM)\\
+\end{tabular}
+
+
+% \section*{Persönliche Daten}
+
+% \begin{tabular}{p{3cm}p{13cm}}
+% Name          & Matthias Fey\\
+% Geburtsdatum  & 02.06.1990\\
+% Familienstand & ledig\\
+% \end{tabular}
+
+% % \section*{Schulbildung}
+
+% % \begin{tabular}{p{3cm}p{13cm}}
+% % 1996 – 2000 & Osterfeldschule Unna\\
+% % 2000 – 2009 & Pestalozzi-Gymnasium Unna\\
+% %             & Abschluss: Abitur (2,2)\\
+% % \end{tabular}
+
+% % \section*{Studium}
+
+% % \begin{tabular}{p{3cm}p{13cm}}
+% % Oktober 2010 – Dezember 2013  & B.Sc.\ Informatik, TU Dortmund\\
+% % Dezember 2013 – September 2017 & M.Sc.\ Informatik, TU Dortmund\\
+% % Oktober 2017 - heute & Doktorand 
+% % \end{tabular}
+
+% % \subsection*{Tätigkeiten}
+
+% % \begin{tabular}{p{3cm}p{13cm}}
+% % 2009 – 2010 & Zivildienst, Katharinen Hospital Unna\\
+% % 2013 – 2017 & Software-Entwickler (Werkstudent), Comline\\
+% % 2017 - heute & Wissenschaftlicher Mitarbeiter, TU Dortmund\\
+% % \end{tabular}
+
+% % \subsection*{Veröffentlichungen}
+
+% % \begin{tabular}{p{3cm}p{13cm}}
+% % 2016 & Christian Eichhorn, Matthias Fey, Gabriele Kern-Isberner\\
+% %      & \textit{CP- and OCF-networks – A Comparison}\\
+% %      & Fuzzy Sets and Systems, Volume 298: Special Issue on Graded Logical Approaches and Their Applications\\
+% % 2018 & Matthias Fey, Jan Eric Lenssen, Frank Weichert, Heinrich Müller\\
+% %      & \textit{SplineCNN: Fast Geometric Deep Learning with Continuous B-Spline Kernels}\\
+% %      & IEEE Conference on Computer Vision and Pattern Recognition (CVPR)\\
+% % 2018 & Nils M. Kriege, Matthias Fey, Denis Fisseler, Petra Mutzel, Frank Weichert\\
+% %      & \textit{Recognizing Cuneiform Signs Using Graph Based Methods}\\
+% %      & International Workshop on Cost-Sensitive Learning (COST), SIAM International Conference on Data Mining (SDM)\\
+% % \end{tabular}
+
+% % \subsection*{Lehre}
+
+% % \begin{tabular}{p{3cm}p{13cm}}
+% % 2017 - 2018 & Prof.~Dr.~Müller, Informatik VII, TU Dortmund\\
+% %             & \textit{Mensch-Maschine-Interaktion}\\
+% % \end{tabular}
+
+% % \subsection*{Interne Arbeiten}
+
+% % \begin{tabular}{p{3cm}p{13cm}}
+% % 2013 & Bachelor-Arbeit: Prof.~Dr.~Kern-Isberner, Informatik I, TU Dortmund\\
+% %      & \textit{Qualitative Semantiken für DAGs – ein Vergleich von OCF- und CP-Netzwerken}\\
+% % 2017 & Master-Arbeit: Prof.~Dr.~Müller, Informatik VII, TU Dortmund\\
+% %      & \textit{Convolutional Neural Networks auf Graphrepräsentationen von Bildern}\\
+% % \end{tabular}
+
+% % \subsection*{Fortbildungen}
+
+% % \begin{tabular}{p{3cm}p{13cm}}
+% % 2013 & SCRUM-Workshop, MSG Systems und TU Dortmund\\
+% % \end{tabular}
+
+% % \subsection*{Kenntnisse}
+
+% % \begin{tabular}{p{3cm}p{13cm}}
+% % Fremdsprachen     & Englisch\\
+% % Betriebssysteme   & macOS, Linux, Windows\\
+% % Programmierspr.   & Python, JavaScript, Java, C/C++, Swift\\
+% % Auszeichnungsspr. & HTML, CSS\\
+% % Frameworks        & TensorFlow, React, Ruby on Rails, Spring, jQuery\\
+% % Sonstiges         & Photoshop CC, Latex, SQL\\
+% % \end{tabular}
+\end{document}
