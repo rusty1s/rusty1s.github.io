@@ -6,6 +6,12 @@
     "isMaster": true
   },
   {
+    "name": "Evaluierung von tiefen neuronalen Netzen zur Synthetisierung von Graphen",
+    "author": "Daniel Schulze Bisping",
+    "year": "2018",
+    "isMaster": true
+  },
+  {
     "name": "Extending SplineCNN by Structural Graph Features for Cheminformatics",
     "author": "Mohamad Reza Nirumand Alankesh",
     "year": "2018",
