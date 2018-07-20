@@ -18,7 +18,7 @@ const Home = () => (
       <GridItem>
         <Title>Matthias Fey</Title>
         <Subtitle>
-          PhD candidate
+          PhD student
           <br />
           TU Dortmund University
         </Subtitle>
