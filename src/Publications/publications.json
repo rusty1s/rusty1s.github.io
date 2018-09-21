@@ -4,7 +4,7 @@
       "Group Equivariant Capsule Networks",
     "author":
       "Jan Eric Lenssen, Matthias Fey, Pascal Libuschewski",
-    "description": ["arXiv:1806.05086 (2018)"],
+    "description": ["Advances in Neural Information Processing Systems (2018)"],
     "refs": [
       {
         "name": "Link",
@@ -16,13 +16,12 @@
       }
     ],
     "bibtex": {
-      "type": "article",
+      "type": "inproceedings",
       "id": "Lenssen/etal/2018",
       "content": [
         "title={Group Equivariant Capsule Networks}",
         "author={Lenssen, {Jan Eric} and Fey, Matthias and Libuschewski, Pascal}",
-        "journal={CoRR}",
-        "volume={abs/1806.05086}",
+        "booktitle={Advances in Neural Information Processing Systems (NIPS)}",
         "year={2018}"
       ]
     }
