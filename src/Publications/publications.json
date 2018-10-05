@@ -1,6 +1,34 @@
 [
   {
     "name":
+      "Weisfeiler and Leman Go Neural: Higher-order Graph Neural Networks",
+    "author":
+      "Christopher Morris, Martin Ritzert, Matthias Fey, William L. Hamilton, Jan Eric Lenssen, Gaurav Rattan, Martin Grohe",
+    "description": ["arXiv:1810.02244 (2018)"],
+    "refs": [
+      {
+        "name": "Link",
+        "href": "https://arxiv.org/abs/1810.02244"
+      },
+      {
+        "name": "PDF (0.3MB)",
+        "href": "https://arxiv.org/pdf/1810.02244.pdf"
+      }
+    ],
+    "bibtex": {
+      "type": "article",
+      "id": "Morris/etal/2018",
+      "content": [
+        "title={Weisfeiler and Leman Go Neural: Higher-order Graph Neural Networks}",
+        "author={Morris, Christopher and Ritzert, Martin and Fey, Matthias and Hamilton, {William L.} and Lenssen, {Jan Eric} and Rattan, Gaurav and Grohe, Martin}",
+        "journal={CoRR}",
+        "volume={abs/1810.02244}",
+        "year={2018}"
+      ]
+    }
+  },
+  {
+    "name":
       "Group Equivariant Capsule Networks",
     "author":
       "Jan Eric Lenssen, Matthias Fey, Pascal Libuschewski",
