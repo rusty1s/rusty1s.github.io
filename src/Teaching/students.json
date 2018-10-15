@@ -1,5 +1,11 @@
 [
   {
+    "name": "GraphCNN-basierte Annotierung multipler Drohnen in realkonformen Szenarien",
+    "author": "Fabian Reinsch",
+    "year": "2019",
+    "isMaster": true
+  },
+  {
     "name": "Einsatz tiefer neuronaler Netze zur Gestendetektion unter Beachtung hybrider Datenrepräsentationen",
     "author": "Janina Mücke",
     "year": "2018",
