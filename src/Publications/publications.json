@@ -4,7 +4,7 @@
       "Weisfeiler and Leman Go Neural: Higher-order Graph Neural Networks",
     "author":
       "Christopher Morris, Martin Ritzert, Matthias Fey, William L. Hamilton, Jan Eric Lenssen, Gaurav Rattan, Martin Grohe",
-    "description": ["arXiv:1810.02244 (2018)"],
+    "description": ["AAAI Conference on Artificial Intelligence (2019)"],
     "refs": [
       {
         "name": "Link",
@@ -16,14 +16,13 @@
       }
     ],
     "bibtex": {
-      "type": "article",
-      "id": "Morris/etal/2018",
+      "type": "inproceedings",
+      "id": "Morris/etal/2019",
       "content": [
         "title={Weisfeiler and Leman Go Neural: Higher-order Graph Neural Networks}",
         "author={Morris, Christopher and Ritzert, Martin and Fey, Matthias and Hamilton, {William L.} and Lenssen, {Jan Eric} and Rattan, Gaurav and Grohe, Martin}",
-        "journal={CoRR}",
-        "volume={abs/1810.02244}",
-        "year={2018}"
+        "booktitle={{AAAI} Conference on Artificial Intelligence ({AAAI})}",
+        "year={2019}"
       ]
     }
   },
@@ -49,7 +48,7 @@
       "content": [
         "title={Group Equivariant Capsule Networks}",
         "author={Lenssen, {Jan Eric} and Fey, Matthias and Libuschewski, Pascal}",
-        "booktitle={Advances in Neural Information Processing Systems (NIPS)}",
+        "booktitle={Advances in Neural Information Processing Systems ({NIPS})}",
         "year={2018}"
       ]
     }
@@ -76,7 +75,7 @@
       "content": [
         "title={Recognizing Cuneiform Signs Using Graph Based Methods}",
         "author={Kriege, {Nils M.} and Fey, Matthias and Fisseler, Denis and Mutzel, Petra and Weichert, Frank}",
-        "booktitle={Proceedings of Machine Learning Research (PMLR)}",
+        "booktitle={Proceedings of Machine Learning Research ({PMLR})}",
         "year={2018}"
       ]
     }
@@ -111,7 +110,7 @@
       "content": [
         "title={{SplineCNN}: Fast Geometric Deep Learning with Continuous {B}-Spline Kernels}",
         "author={Fey, Matthias and Lenssen, {Jan Eric} and Weichert, Frank and M{\\\"u}ller, Heinrich}",
-        "booktitle={{IEEE} Conference on Computer Vision and Pattern Recognition (CVPR)}",
+        "booktitle={{IEEE} Conference on Computer Vision and Pattern Recognition ({CVPR})}",
         "year={2018}"
       ]
     }
