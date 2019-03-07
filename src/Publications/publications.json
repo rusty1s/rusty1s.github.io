@@ -1,9 +1,41 @@
 [
   {
     "name":
+      "Fast Graph Representation Learning with PyTorch Geometric",
+    "author":
+      "Matthias Fey, Jan E. Lenssen",
+    "description": ["CoRR abs/1903.02428 (2019)"],
+    "refs": [
+      {
+        "name": "Link",
+        "href": "https://arxiv.org/abs/1913.02428"
+      },
+      {
+        "name": "PDF (0.3MB)",
+        "href": "https://arxiv.org/pdf/1913.02428.pdf"
+      },
+      {
+        "name": "Code",
+        "href": "https://github.com/rusty1s/pytorch_geometric"
+      }
+    ],
+    "bibtex": {
+      "type": "article",
+      "id": "Fey/Lenssen/2019",
+      "content": [
+        "title={Fast Graph Representation Learning with {PyTorch Geometric}}",
+        "author={Fey, Matthias and and Lenssen, Jan E.}",
+        "journal={CoRR}",
+        "volume={abs/1903.02428}",
+        "year={2019}"
+      ]
+    }
+  },
+  {
+    "name":
       "Weisfeiler and Leman Go Neural: Higher-order Graph Neural Networks",
     "author":
-      "Christopher Morris, Martin Ritzert, Matthias Fey, William L. Hamilton, Jan Eric Lenssen, Gaurav Rattan, Martin Grohe",
+      "Christopher Morris, Martin Ritzert, Matthias Fey, William L. Hamilton, Jan E. Lenssen, Gaurav Rattan, Martin Grohe",
     "description": ["AAAI Conference on Artificial Intelligence (2019)"],
     "refs": [
       {
@@ -13,6 +45,14 @@
       {
         "name": "PDF (0.3MB)",
         "href": "https://arxiv.org/pdf/1810.02244.pdf"
+      },
+      {
+        "name": "Code",
+        "href": "https://github.com/chrsmrrs/k-gnn"
+      },
+      {
+        "name": "Slides",
+        "href": "https://de.slideshare.net/ChristopherMorris104/weisfeiler-and-leman-go-neural-higherorder-graph-neural-networks"
       }
     ],
     "bibtex": {
@@ -20,7 +60,7 @@
       "id": "Morris/etal/2019",
       "content": [
         "title={Weisfeiler and Leman Go Neural: Higher-order Graph Neural Networks}",
-        "author={Morris, Christopher and Ritzert, Martin and Fey, Matthias and Hamilton, {William L.} and Lenssen, {Jan Eric} and Rattan, Gaurav and Grohe, Martin}",
+        "author={Morris, Christopher and Ritzert, Martin and Fey, Matthias and Hamilton, William L. and Lenssen, Jan E. and Rattan, Gaurav and Grohe, Martin}",
         "booktitle={{AAAI} Conference on Artificial Intelligence ({AAAI})}",
         "year={2019}"
       ]
@@ -30,7 +70,7 @@
     "name":
       "Group Equivariant Capsule Networks",
     "author":
-      "Jan Eric Lenssen, Matthias Fey, Pascal Libuschewski",
+      "Jan E. Lenssen, Matthias Fey, Pascal Libuschewski",
     "description": ["Advances in Neural Information Processing Systems (2018)"],
     "refs": [
       {
@@ -40,6 +80,14 @@
       {
         "name": "PDF (0.9MB)",
         "href": "https://arxiv.org/pdf/1806.05086.pdf"
+      },
+      {
+        "name": "Code",
+        "href": "https://github.com/mrjel/group_equivariant_capsules_pytorch"
+      },
+      {
+        "name": "Poster (1.5MB)",
+        "href": "http://rusty1s.github.io/nips18_poster.pdf"
       }
     ],
     "bibtex": {
@@ -47,7 +95,7 @@
       "id": "Lenssen/etal/2018",
       "content": [
         "title={Group Equivariant Capsule Networks}",
-        "author={Lenssen, {Jan Eric} and Fey, Matthias and Libuschewski, Pascal}",
+        "author={Lenssen, Jan E. and Fey, Matthias and Libuschewski, Pascal}",
         "booktitle={Advances in Neural Information Processing Systems ({NIPS})}",
         "year={2018}"
       ]
@@ -84,7 +132,7 @@
     "name":
       "SplineCNN: Fast Geometric Deep Learning with Continuous B-Spline Kernels",
     "author":
-      "Matthias Fey*, Jan Eric Lenssen*, Frank Weichert, Heinrich Müller",
+      "Matthias Fey*, Jan E. Lenssen*, Frank Weichert, Heinrich Müller",
     "description": ["IEEE Conference on Computer Vision and Pattern Recognition (2018)", "*equal contribution"],
     "refs": [
       {
@@ -100,7 +148,7 @@
         "href": "https://github.com/rusty1s/pytorch_geometric"
       },
       {
-        "name": "Poster (8.5 MB)",
+        "name": "Poster (8.2MB)",
         "href": "http://rusty1s.github.io/cvpr18_poster.pdf"
       }
     ],
@@ -109,7 +157,7 @@
       "id": "Fey/etal/2018",
       "content": [
         "title={{SplineCNN}: Fast Geometric Deep Learning with Continuous {B}-Spline Kernels}",
-        "author={Fey, Matthias and Lenssen, {Jan Eric} and Weichert, Frank and M{\\\"u}ller, Heinrich}",
+        "author={Fey, Matthias and Lenssen, Jan E. and Weichert, Frank and M{\\\"u}ller, Heinrich}",
         "booktitle={{IEEE} Conference on Computer Vision and Pattern Recognition ({CVPR})}",
         "year={2018}"
       ]
@@ -150,7 +198,7 @@
     "description": ["Master's Thesis (2017), TU Dortmund, Computer Science VII"],
     "refs": [
       {
-        "name": "PDF (3.4 MB)",
+        "name": "PDF (3.4MB)",
         "href":
           "https://github.com/rusty1s/deep-learning-on-graphs/raw/master/masterthesis/main.pdf"
       },
@@ -176,7 +224,7 @@
     "description": ["Bachelor's Thesis (2013), TU Dortmund, Computer Science I"],
     "refs": [
       {
-        "name": "PDF (0.4 MB)",
+        "name": "PDF (0.4MB)",
         "href":
           "https://github.com/rusty1s/OCF-andCP-Networks/raw/master/thesis.pdf"
       }
