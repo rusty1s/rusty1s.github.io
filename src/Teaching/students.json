@@ -1,5 +1,23 @@
 [
   {
+    "name": "Deep Learning-basierte Klassifikation von dreidimensionalen Bauteilgeometrien",
+    "author": "Konstantin Wüstefeld",
+    "year": "2019",
+    "isMaster": true
+  },
+  {
+    "name": "Genetische Hyperparameteroptimierung von Convolutional Neural Networks",
+    "author": "Jan Niklas Mattenklotz",
+    "year": "2019",
+    "isMaster": false
+  },
+  {
+    "name": "Graph-basiertes Reinforcement Learning zur kollaborativen Bewegungsprädiktion von Drohnen",
+    "author": "Dominik Schütgens",
+    "year": "2019",
+    "isMaster": true
+  },
+  {
     "name": "GraphCNN-basierte Annotierung multipler Drohnen in realkonformen Szenarien",
     "author": "Fabian Reinsch",
     "year": "2019",
