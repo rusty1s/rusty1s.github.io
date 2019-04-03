@@ -1,5 +1,17 @@
 [
   {
+    "name": "Approximating the Graph Edit Distance via Deep Learning",
+    "author": "Dmytro Semenchenko",
+    "year": "2019",
+    "isMaster": false
+  },
+  {
+    "name": "Unüberwachtes Lernen von Graphrepräsentationen mittels Graph Neural Networks",
+    "author": "David Gathmann",
+    "year": "2019",
+    "isMaster": false
+  },
+  {
     "name": "Deep Learning-basierte Klassifikation von dreidimensionalen Bauteilgeometrien",
     "author": "Konstantin Wüstefeld",
     "year": "2019",
