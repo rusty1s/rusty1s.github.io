@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 import Home from './Home';
 import Publications from './Publications';
-import Projects from './Projects';
+import Activities from './Activities';
 import Teaching from './Teaching';
 
 const App = () => (
@@ -21,7 +21,7 @@ const App = () => (
       <GridItem grow>
         <Route exact path="/" component={Home} />
         <Route path="/publications" component={Publications} />
-        <Route path="/projects" component={Projects} />
+        <Route path="/activities" component={Activities} />
         <Route path="/teaching" component={Teaching} />
       </GridItem>
       <GridItem>

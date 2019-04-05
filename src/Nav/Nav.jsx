@@ -16,12 +16,10 @@ const Nav = () => (
         <NavLink to="/publications">Publications</NavLink>
       </li>
       <li>
-        <NavLink to="/teaching">Teaching</NavLink>
+        <NavLink to="/activities">Activities</NavLink>
       </li>
       <li>
-        <NavLink containerElement="a" href="https://medium.com/@rusty1s">
-          Blog
-        </NavLink>
+        <NavLink to="/teaching">Teaching</NavLink>
       </li>
     </ul>
   </nav>

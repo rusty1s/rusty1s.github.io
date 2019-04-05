@@ -1,0 +1,20 @@
+[
+  {
+    "name": "International Conference on Learning Representations (ICLR)",
+    "href": "https://iclr.cc/Conferences/2019",
+    "date": "May 6 - 9, 2019",
+    "city": "New Orleans, USA"
+  },
+  {
+    "name": "Conference on Neural Information Processing Systems (NeurIPS)",
+    "href": "https://nips.cc/Conferences/2018",
+    "date": "Dec 2 - 8, 2018",
+    "city": "Montréal, Canada"
+  },
+  {
+    "name": "Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "href": "http://cvpr2018.thecvf.com/",
+    "date": "June 18 - 22, 2018",
+    "city": "Salt Lake City, USA"
+  }
+]

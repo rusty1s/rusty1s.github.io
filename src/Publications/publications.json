@@ -4,7 +4,7 @@
       "Fast Graph Representation Learning with PyTorch Geometric",
     "author":
       "Matthias Fey, Jan E. Lenssen",
-    "description": ["CoRR abs/1903.02428 (2019)"],
+    "description": ["ICLR Workshop on Representation Learning on Graphs and Manifolds (2019)"],
     "refs": [
       {
         "name": "Link",
@@ -96,7 +96,7 @@
       "content": [
         "title={Group Equivariant Capsule Networks}",
         "author={Lenssen, Jan E. and Fey, Matthias and Libuschewski, Pascal}",
-        "booktitle={Advances in Neural Information Processing Systems ({NIPS})}",
+        "booktitle={Advances in Neural Information Processing Systems ({NeurIPS})}",
         "year={2018}"
       ]
     }
