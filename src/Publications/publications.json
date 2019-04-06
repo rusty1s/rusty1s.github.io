@@ -20,13 +20,31 @@
       }
     ],
     "bibtex": {
-      "type": "article",
+      "type": "inproceedings",
       "id": "Fey/Lenssen/2019",
       "content": [
         "title={Fast Graph Representation Learning with {PyTorch Geometric}}",
         "author={Fey, Matthias and and Lenssen, Jan E.}",
-        "journal={CoRR}",
-        "volume={abs/1903.02428}",
+        "booktitle={ICLR Workshop on Representation Learning on Graphs and Manifolds}",
+        "year={2019}"
+      ]
+    }
+  },
+  {
+    "name":
+      "Just Jump: Dynamic Neighborhood Aggregation in Graph Neural Networks",
+    "author":
+      "Matthias Fey",
+    "description": ["ICLR Workshop on Representation Learning on Graphs and Manifolds (2019)"],
+    "refs": [
+    ],
+    "bibtex": {
+      "type": "inproceedings",
+      "id": "Fey/2019",
+      "content": [
+        "title={Just Jump: Dynamic Neighborhood Aggregation in Graph Neural Networks}",
+        "author={Fey, Matthias}",
+        "booktitle={ICLR Workshop on Representation Learning on Graphs and Manifolds}",
         "year={2019}"
       ]
     }
