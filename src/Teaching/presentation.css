@@ -1,0 +1,12 @@
+.main {
+  text-align: center;
+  margin: 0 0 4rem;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.date {
+  font-style: italic;
+}
