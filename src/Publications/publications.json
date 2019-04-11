@@ -8,11 +8,11 @@
     "refs": [
       {
         "name": "Link",
-        "href": "https://arxiv.org/abs/1913.02428"
+        "href": "https://arxiv.org/abs/1903.02428"
       },
       {
         "name": "PDF (0.3MB)",
-        "href": "https://arxiv.org/pdf/1913.02428.pdf"
+        "href": "https://arxiv.org/pdf/1903.02428.pdf"
       },
       {
         "name": "Code",
@@ -37,6 +37,18 @@
       "Matthias Fey",
     "description": ["ICLR Workshop on Representation Learning on Graphs and Manifolds (2019)"],
     "refs": [
+      {
+        "name": "Link",
+        "href": "https://arxiv.org/abs/1904.04849"
+      },
+      {
+        "name": "PDF (0.4MB)",
+        "href": "https://arxiv.org/pdf/1904.04849.pdf"
+      },
+      {
+        "name": "Code",
+        "href": "https://github.com/rusty1s/pytorch_geometric"
+      }
     ],
     "bibtex": {
       "type": "inproceedings",
@@ -61,7 +73,7 @@
         "href": "https://arxiv.org/abs/1810.02244"
       },
       {
-        "name": "PDF (0.3MB)",
+        "name": "PDF (0.4MB)",
         "href": "https://arxiv.org/pdf/1810.02244.pdf"
       },
       {

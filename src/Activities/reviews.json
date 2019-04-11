@@ -6,6 +6,12 @@
     "city": "Würzburg, Germany"
   },
   {
+    "name": "International Joint Conference on Artificial Intelligence (IJCAI)",
+    "href": "https://ijcai19.org/",
+    "date": "August 10 - 16, 2019",
+    "city": "Macao, China"
+  },
+  {
     "name": "ICLR Workshop on Representation Learning on Graphs and Manifolds",
     "href": "https://rlgm.github.io/",
     "date": "May 6, 2019",
