@@ -12,6 +12,12 @@
     "city": "Macao, China"
   },
   {
+    "name": "ICML Workshop on Learning and Reasoning with Graph-Structured Data",
+    "href": "https://graphreason.github.io/",
+    "date": "June 10 - 15, 2019",
+    "city": "Long Beach, USA"
+  },
+  {
     "name": "ICLR Workshop on Representation Learning on Graphs and Manifolds",
     "href": "https://rlgm.github.io/",
     "date": "May 6, 2019",
