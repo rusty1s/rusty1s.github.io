@@ -4,7 +4,7 @@
       "Fast Graph Representation Learning with PyTorch Geometric",
     "author":
       "Matthias Fey, Jan E. Lenssen",
-    "description": ["ICLR Workshop on Representation Learning on Graphs and Manifolds (2019)"],
+    "description": ["ICLR Workshop on Representation Learning on Graphs and Manifolds (2019; oral)"],
     "refs": [
       {
         "name": "Link",
