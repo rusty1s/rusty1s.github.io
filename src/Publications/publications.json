@@ -1,10 +1,10 @@
 [
   {
     "name":
-      "Fast Graph Representation Learning with PyTorch Geometric",
+      "Fast Graph Representation Learning with PyTorch Geometric*",
     "author":
       "Matthias Fey, Jan E. Lenssen",
-    "description": ["ICLR Workshop on Representation Learning on Graphs and Manifolds (2019; oral)"],
+    "description": ["ICLR Workshop on Representation Learning on Graphs and Manifolds (2019)", "*contributed talk"],
     "refs": [
       {
         "name": "Link",
@@ -17,6 +17,18 @@
       {
         "name": "Code",
         "href": "https://github.com/rusty1s/pytorch_geometric"
+      },
+      {
+        "name": "Slides (3.3MB)",
+        "href": "http://rusty1s.github.io/pyg_slides.pdf"
+      },
+      {
+        "name": "Poster (2.3MB)",
+        "href": "http://rusty1s.github.io/pyg_poster.pdf"
+      },
+      {
+        "name": "Notebook",
+        "href": "http://htmlpreview.github.io/?https://github.com/rusty1s/rusty1s.github.io/blob/master/pyg_notebook.html"
       }
     ],
     "bibtex": {
@@ -48,6 +60,10 @@
       {
         "name": "Code",
         "href": "https://github.com/rusty1s/pytorch_geometric"
+      },
+      {
+        "name": "Poster (1.7MB)",
+        "href": "http://rusty1s.github.io/jump_poster.pdf"
       }
     ],
     "bibtex": {
