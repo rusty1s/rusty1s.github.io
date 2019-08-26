@@ -1,5 +1,11 @@
 [
   {
+    "name": "NeurIPS Graph Representation Learning Workshop",
+    "href": "https://grlearning.github.io/",
+    "date": "Dec 8 - 14, 2019",
+    "city": "Vancouver, Canada"
+  },
+  {
     "name": "European Conference on Machine Learning (ECML PKDD)",
     "href": "http://ecmlpkdd2019.org/",
     "date": "Sep 16 - 20, 2019",
