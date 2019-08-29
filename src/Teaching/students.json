@@ -1,5 +1,11 @@
 [
   {
+    "name": "Generative Models for Realistic 3D Objects",
+    "author": "Marian Kleineberg",
+    "year": "2019",
+    "isMaster": true
+  },
+  {
     "name": "Approximating the Graph Edit Distance via Deep Learning",
     "author": "Dmytro Semenchenko",
     "year": "2019",
