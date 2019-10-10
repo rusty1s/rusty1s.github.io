@@ -1,5 +1,11 @@
 [
   {
+    "name": "MTM-Prädiktion hybrider Datenrepräsentationen mittels tiefer Lernverfahren",
+    "author": "Maximilian Diergardt",
+    "year": "2019",
+    "isMaster": true
+  },
+  {
     "name": "Generative Models for Realistic 3D Objects",
     "author": "Marian Kleineberg",
     "year": "2019",
