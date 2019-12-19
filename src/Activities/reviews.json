@@ -1,5 +1,11 @@
 [
   {
+    "name": "International Conference on Machine Learning (ICML)",
+    "href": "https://icml.cc/Conferences/2020/",
+    "date": "Jul 12 - 18, 2020",
+    "city": "Vienna, Austria"
+  },
+  {
     "name": "NeurIPS Graph Representation Learning Workshop",
     "href": "https://grlearning.github.io/",
     "date": "Dec 8 - 14, 2019",
