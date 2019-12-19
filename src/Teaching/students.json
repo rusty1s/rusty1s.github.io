@@ -1,5 +1,29 @@
 [
   {
+    "name": "Zeit-effizientes Training von Convolutional Neural Networks",
+    "author": "Jessica Bühler",
+    "year": "2020",
+    "isMaster": true
+  },
+  {
+    "name": "Deep Learning-basierte Rekonstruktion unvollständig repräsentierter Oberflächen",
+    "author": "Sebastian Hauer",
+    "year": "2020",
+    "isMaster": true
+  },
+  {
+    "name": "Entwicklung adaptiver Strategien zur Optimierung der Adversarial Robustness für Punktwolken",
+    "author": "Björn Engelmann",
+    "year": "2020",
+    "isMaster": true
+  },
+  {
+    "name": "Deep Learning-assoziierte Analyse heterogener biochemischer Daten",
+    "author": "Jan-Gin Yuen",
+    "year": "2020",
+    "isMaster": true
+  },
+  {
     "name": "MTM-Prädiktion hybrider Datenrepräsentationen mittels tiefer Lernverfahren",
     "author": "Maximilian Diergardt",
     "year": "2019",
