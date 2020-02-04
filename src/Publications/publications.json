@@ -1,6 +1,38 @@
 [
   {
     "name":
+      "Adversarial Generation of Continuous Implicit Shape Representations",
+    "author":
+      "Marian Kleineberg, Matthias Fey, Frank Weichert",
+    "description": ["arXiv:2002.00349 (2020)"],
+    "refs": [
+      {
+        "name": "Link",
+        "href": "https://arxiv.org/abs/2002.00349"
+      },
+      {
+        "name": "PDF (6.4MB)",
+        "href": "https://arxiv.org/pdf/2002.00349.pdf"
+      },
+      {
+        "name": "Code",
+        "href": "https://github.com/marian42/shapegan"
+      }
+    ],
+    "bibtex": {
+      "type": "article",
+      "id": "Kleineberg/etal/2020",
+      "content": [
+        "title={Adversarial Generation of Continuous Implicit Shape RepresentationsDeep Graph Matching Consensus}",
+        "author={Kleineberg, Marian and Fey, Matthias and Weichert, Frank}",
+        "journal={CoRR}",
+        "volume={abs/2002.00349}",
+        "year={2020}"
+      ]
+    }
+  },
+  {
+    "name":
       "Deep Graph Matching Consensus",
     "author":
       "Matthias Fey, Jan E. Lenssen, Christopher Morris, Jonathan Masci, Nils M. Kriege",
