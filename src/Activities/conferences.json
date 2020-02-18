@@ -1,6 +1,18 @@
 [
   {
     "name": "International Conference on Learning Representations (ICLR)",
+    "href": "https://iclr.cc/Conferences/2020",
+    "date": "April 26 - 30, 2020",
+    "city": "Addis Ababa, Ethiopia"
+  },
+  {
+    "name": "German Conference on Pattern Recognition (GCPR)",
+    "href": "http://gcpr2019.tu-dortmund.de",
+    "date": "September 10 - 13, 2019",
+    "city": "Dortmund, Germany"
+  },
+  {
+    "name": "International Conference on Learning Representations (ICLR)",
     "href": "https://iclr.cc/Conferences/2019",
     "date": "May 6 - 9, 2019",
     "city": "New Orleans, USA"

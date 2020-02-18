@@ -4,7 +4,7 @@
       "Adversarial Generation of Continuous Implicit Shape Representations",
     "author":
       "Marian Kleineberg, Matthias Fey, Frank Weichert",
-    "description": ["arXiv:2002.00349 (2020)"],
+    "description": ["Eurographics (2020) - Short Papers"],
     "refs": [
       {
         "name": "Link",
@@ -20,13 +20,12 @@
       }
     ],
     "bibtex": {
-      "type": "article",
+      "type": "inproceedings",
       "id": "Kleineberg/etal/2020",
       "content": [
         "title={Adversarial Generation of Continuous Implicit Shape RepresentationsDeep Graph Matching Consensus}",
         "author={Kleineberg, Marian and Fey, Matthias and Weichert, Frank}",
-        "journal={CoRR}",
-        "volume={abs/2002.00349}",
+        "booktitle={Eurographics 2029 - Short Papers}",
         "year={2020}"
       ]
     }
