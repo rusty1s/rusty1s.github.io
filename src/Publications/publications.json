@@ -1,6 +1,42 @@
 [
   {
     "name":
+      "Open Graph Benchmark: Datasets for Machine Learning on Graphs",
+    "author":
+      "Weihua Hu, Matthias Fey, Marinka Zitnik, Yuxiao Dong, Hongyu Ren, Bowen Liu, Michele Catasta, Jure Leskovec",
+    "description": ["CoRR, abs/2005.00687 (2020)"],
+    "refs": [
+      {
+        "name": "Link",
+        "href": "https://arxiv.org/abs/2005.00687"
+      },
+      {
+        "name": "PDF (0.8MB)",
+        "href": "https://arxiv.org/pdf/2005.00687.pdf"
+      },
+      {
+        "name": "Website",
+        "href": "https://ogb.stanford.edu"
+      },
+      {
+        "name": "Code",
+        "href": "https://github.com/snap-stanford/ogb"
+      }
+    ],
+    "bibtex": {
+      "type": "article",
+      "id": "Hu/etal/2020",
+      "content": [
+        "title={{Open Graph Benchmark}: Datasets for Machine Learning on Graphs}",
+        "author={Hu, Weihua and Fey, Matthias and Zitnik, Marinka and Dong, Yuxiao and Ren, Hongyu and Liu, Bowen and Catasta, Michele and Leskovec, Jure}",
+        "journal={CoRR}",
+        "volume={abs/2005.00687}",
+        "year={2020}"
+      ]
+    }
+  },
+  {
+    "name":
       "Adversarial Generation of Continuous Implicit Shape Representations",
     "author":
       "Marian Kleineberg, Matthias Fey, Frank Weichert",
