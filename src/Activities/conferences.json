@@ -1,9 +1,21 @@
 [
   {
+    "name": "International Conference on Machine Learning (ICML)",
+    "href": "https://icml.cc/Conferences/2020/",
+    "date": "Jul 12 - 18, 2020",
+    "city": "Virtual-only"
+  },
+  {
+    "name": "Eurographics & Eurovis (EGEV)",
+    "href": "https://conferences.eg.org/egev20/",
+    "date": "May 25 - 29, 2020",
+    "city": "Virtual-only"
+  },
+  {
     "name": "International Conference on Learning Representations (ICLR)",
     "href": "https://iclr.cc/Conferences/2020",
     "date": "April 26 - 30, 2020",
-    "city": "Addis Ababa, Ethiopia"
+    "city": "Virtual-only"
   },
   {
     "name": "German Conference on Pattern Recognition (GCPR)",

@@ -1,6 +1,29 @@
 [
   {
     "name":
+      "Hierarchical Inter-Message Passing for Learning on Molecular Graphs",
+    "author":
+      "Matthias Fey*, Jan-Gin Yuen*, Frank Weichert",
+    "description": ["ICML Graph Representation Learning and Beyond (GRL+) Workshop (2020)", "*equal contribution"],
+    "refs": [
+      {
+        "name": "Code",
+        "href": "https://github.com/rusty1s/himp-gnn"
+      }
+    ],
+    "bibtex": {
+      "type": "inproceedings",
+      "id": "Fey/etal/2020",
+      "content": [
+        "title={Hierarchical Inter-Message Passing for Learning on Molecular Graphs}",
+        "author={Fey, Matthias and Yuen, Jan-Gin and Weichert, Frank}",
+        "booktitle={ICML Graph Representation Learning and Beyond (GRL+) Workshop}",
+        "year={2020}"
+      ]
+    }
+  },
+  {
+    "name":
       "Open Graph Benchmark: Datasets for Machine Learning on Graphs",
     "author":
       "Weihua Hu, Matthias Fey, Marinka Zitnik, Yuxiao Dong, Hongyu Ren, Bowen Liu, Michele Catasta, Jure Leskovec",

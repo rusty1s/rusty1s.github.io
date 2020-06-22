@@ -1,5 +1,12 @@
 [
   {
+    "title": "Updates on PyTorch Geometric",
+    "subtitle": "at the ICML Graph Representation Learning and Beyond (GRL+) Workshop",
+    "date": "July 2020",
+    "href": "http://rusty1s.github.io/imcl_pyg.pdf",
+    "size": "0.8MB"
+  },
+  {
     "title": "Relational Representation Learning",
     "subtitle": "with Graph Neural Networks",
     "date": "April 2019",
