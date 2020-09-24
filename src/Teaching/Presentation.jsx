@@ -10,7 +10,8 @@ const propTypes = {
   subtitle: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   href: PropTypes.string.isRequired,
-  size: PropTypes.string.isRequired,
+  pdfHref: PropTypes.string.isRequired,
+  pdfSize: PropTypes.string.isRequired,
 };
 
 const Presentation = props => (
@@ -19,7 +20,7 @@ const Presentation = props => (
     <div className={styles.subtitle}>
       {props.subtitle} <span className={styles.date}>{`(${props.date})`}</span>
     </div>
-    <div>[<Link href={props.href}>{`PDF (${props.size})`}</Link>]</div>
+    <div>[<Link href={props.href}>Link</Link>, <Link href={props.pdfHref}>{`PDF (${props.pdfSize})`}</Link>]</div>
   </div>
 );
 

@@ -1,16 +1,34 @@
 [
   {
+    "title": "Tutorial on Graph Neural Networks",
+    "subtitle": "at the Geometry and Machine Learning with Applications to Biomedical Engineering Workshop (University College London)",
+    "date": "September 2020",
+    "href": "https://www.ucl.ac.uk/junior-geometry/Geo-ML-Health/Fey-video.html",
+    "pdfHref": "http://rusty1s.github.io/workshop_ucl.pdf",
+    "pdfSize": "27.1MB"
+  },
+  {
+    "title": "Graph Neural Networks",
+    "subtitle": "at the International Summer School on Resource-aware Machine Learning (TU Dortmund University)",
+    "date": "September 2020",
+    "href": "https://www.youtube.com/watch?v=bgKScUgAyvM",
+    "pdfHref": "",
+    "pdfSize": "MB"
+  },
+  {
     "title": "Updates on PyTorch Geometric",
     "subtitle": "at the ICML Graph Representation Learning and Beyond (GRL+) Workshop",
     "date": "July 2020",
-    "href": "http://rusty1s.github.io/imcl_pyg.pdf",
-    "size": "0.8MB"
+    "href": "https://slideslive.com/38930563/updates-on-pytorch-geometric?ref=account-folder-55829-folders",
+    "pdfHref": "http://rusty1s.github.io/icml_pyg.pdf",
+    "pdfSize": "0.8MB"
   },
   {
-    "title": "Relational Representation Learning",
-    "subtitle": "with Graph Neural Networks",
+    "title": "Relational Representation Learning with Graph Neural Networks",
+    "subtitle": "at the University of Bonn (Computer Vision Group)",
     "date": "April 2019",
-    "href": "http://rusty1s.github.io/rrl_gnn_2019.pdf",
-    "size": "4.7MB"
+    "href": "http://pages.iai.uni-bonn.de/gall_juergen",
+    "pdfHref": "http://rusty1s.github.io/rrl_gnn_2019.pdf",
+    "pdfSize": "4.7MB"
   }
 ]
