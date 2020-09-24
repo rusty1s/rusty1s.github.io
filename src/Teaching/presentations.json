@@ -1,7 +1,7 @@
 [
   {
     "title": "Tutorial on Graph Neural Networks",
-    "subtitle": "at the Geometry and Machine Learning with Applications to Biomedical Engineering Workshop (University College London)",
+    "subtitle": "at the Geometry and Machine Learning with Applications to Biomedical Engineering Workshop - University College London",
     "date": "September 2020",
     "href": "https://www.ucl.ac.uk/junior-geometry/Geo-ML-Health/Fey-video.html",
     "pdfHref": "http://rusty1s.github.io/workshop_ucl.pdf",
@@ -9,7 +9,7 @@
   },
   {
     "title": "Graph Neural Networks",
-    "subtitle": "at the International Summer School on Resource-aware Machine Learning (TU Dortmund University)",
+    "subtitle": "at the International Summer School on Resource-aware Machine Learning - TU Dortmund University",
     "date": "September 2020",
     "href": "https://www.youtube.com/watch?v=bgKScUgAyvM",
     "pdfHref": "",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Relational Representation Learning with Graph Neural Networks",
-    "subtitle": "at the University of Bonn (Computer Vision Group)",
+    "subtitle": "at the University of Bonn - Computer Vision Group",
     "date": "April 2019",
     "href": "http://pages.iai.uni-bonn.de/gall_juergen",
     "pdfHref": "http://rusty1s.github.io/rrl_gnn_2019.pdf",
