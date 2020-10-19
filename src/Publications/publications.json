@@ -35,7 +35,7 @@
       "Open Graph Benchmark: Datasets for Machine Learning on Graphs",
     "author":
       "Weihua Hu, Matthias Fey, Marinka Zitnik, Yuxiao Dong, Hongyu Ren, Bowen Liu, Michele Catasta, Jure Leskovec",
-    "description": ["CoRR, abs/2005.00687 (2020)"],
+    "description": ["Advances in Neural Information Processing Systems (2020)"],
     "refs": [
       {
         "name": "Link",
@@ -55,13 +55,12 @@
       }
     ],
     "bibtex": {
-      "type": "article",
+      "type": "inproceedings",
       "id": "Hu/etal/2020",
       "content": [
         "title={{Open Graph Benchmark}: Datasets for Machine Learning on Graphs}",
         "author={Hu, Weihua and Fey, Matthias and Zitnik, Marinka and Dong, Yuxiao and Ren, Hongyu and Liu, Bowen and Catasta, Michele and Leskovec, Jure}",
-        "journal={CoRR}",
-        "volume={abs/2005.00687}",
+        "booktitle={Advances in Neural Information Processing Systems ({NeurIPS})}",
         "year={2020}"
       ]
     }
