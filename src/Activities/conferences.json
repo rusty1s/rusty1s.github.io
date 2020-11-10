@@ -1,5 +1,11 @@
 [
   {
+    "name": "Conference on Neural Information Processing Systems (NeurIPS)",
+    "href": "https://nips.cc/Conferences/2020",
+    "date": "Dec 7 - 12, 2020",
+    "city": "Virtual-only"
+  },
+  {
     "name": "International Conference on Machine Learning (ICML)",
     "href": "https://icml.cc/Conferences/2020/",
     "date": "Jul 12 - 18, 2020",
