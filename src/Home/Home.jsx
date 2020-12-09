@@ -27,7 +27,7 @@ const Home = () => (
     <Grid wrap horizontalSpacing="4rem">
       <GridItem grow shrink className={styles.text}>
         <Paragraph>
-          {`I'm a third-year PhD student in Machine Learning on graphs at the
+          {`I'm a fourth-year PhD student in Machine Learning on graphs at the
           TU Dortmund University. My main area of interest is the generalization
           of Deep Learning methods to arbitrary Euclidean and non-Euclidean
           structured data.`}
