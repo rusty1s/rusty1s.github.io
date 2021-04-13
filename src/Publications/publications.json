@@ -1,6 +1,42 @@
 [
   {
     "name":
+      "OGB-LSC: A Large-Scale Challenge for Machine Learning on Graphs",
+    "author":
+      "Weihua Hu, Matthias Fey, Hongyu Ren, Maho Nakata, Yuxiao Dong, Jure Leskovec",
+    "description": ["KDD Cup 2021", "CoRR abs/2103.09430 (2021)"],
+    "refs": [
+      {
+        "name": "Link",
+        "href": "https://arxiv.org/abs/2103.09430"
+      },
+      {
+        "name": "PDF (0.7MB)",
+        "href": "https://arxiv.org/pdf/2103.09430.pdf"
+      },
+      {
+        "name": "Website",
+        "href": "https://ogb.stanford.edu/kddcup2021/"
+      },
+      {
+        "name": "Code",
+        "href": "https://github.com/snap-stanford/ogb"
+      }
+    ],
+    "bibtex": {
+      "type": "article",
+      "id": "Hu/etal/2021",
+      "content": [
+        "title={{OGB-LSC}: A Large-Scale Challenge for Machine Learning on Graphs}",
+        "author={Hu, Weihua and Fey, Matthias and Ren, Hongyu and Nakata, Maho and Dong, Yuxiao and Leskovec, Jure}",
+        "journal={CoRR}",
+        "volumne={abs/2103.09430}",
+        "year={2021}"
+      ]
+    }
+  },
+  {
+    "name":
       "Hierarchical Inter-Message Passing for Learning on Molecular Graphs",
     "author":
       "Matthias Fey*, Jan-Gin Yuen*, Frank Weichert",
@@ -32,10 +68,10 @@
   },
   {
     "name":
-      "Open Graph Benchmark: Datasets for Machine Learning on Graphs",
+      "Open Graph Benchmark: Datasets for Machine Learning on Graphs*",
     "author":
       "Weihua Hu, Matthias Fey, Marinka Zitnik, Yuxiao Dong, Hongyu Ren, Bowen Liu, Michele Catasta, Jure Leskovec",
-    "description": ["Advances in Neural Information Processing Systems (2020)"],
+    "description": ["Advances in Neural Information Processing Systems (2020)", "* spotlight"],
     "refs": [
       {
         "name": "Link",

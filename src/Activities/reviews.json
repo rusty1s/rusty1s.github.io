@@ -1,5 +1,23 @@
 [
   {
+    "name": "International Conference on Machine Learning (ICML)",
+    "href": "https://icml.cc/Conferences/2021/",
+    "date": "Jul 18 - 24, 2021",
+    "city": "Virtual-only"
+  },
+  {
+    "name": "MLSys Workshop on on Graph Neural Networks and Systems (GNNSys)",
+    "href": "https://gnnsys.github.io/",
+    "date": "April 9, 2021",
+    "city": "Virtual-only"
+  },
+  {
+    "name": "WWW Workshop on Graph Learning Benchmarks (GLB)",
+    "href": "https://graph-learning-benchmarks.github.io/",
+    "date": "April 16, 2021",
+    "city": "Virtual-only"
+  },
+  {
     "name": "AAAI Workshop on Graphs and more Complex Structures for Learning and Reasoning (GCLR 2021)",
     "href": "https://easychair.org/cfp/gclr2021",
     "date": "Feb 2 - 9, 2021",
