@@ -1,6 +1,33 @@
 [
   {
     "name":
+      "The Power of the Weisfeiler-Leman Algorithm for Machine Learning with Graphs",
+    "author":
+      "Christopher Morris, Matthias Fey, Nils M. Kriege",
+    "description": ["International Joint Conferences on Artifical Intelligence (2021) - Survey Track"],
+    "refs": [
+      {
+        "name": "Link",
+        "href": "https://arxiv.org/abs/2105.05911"
+      },
+      {
+        "name": "PDF (0.5MB)",
+        "href": "https://arxiv.org/pdf/2105.05911.pdf"
+      }
+    ],
+    "bibtex": {
+      "type": "inproceedings",
+      "id": "Morris/etal/2021",
+      "content": [
+        "title={The Power of the {Weisfeiler-Leman} Algorithm for Machine Learning with Graphs}",
+        "author={Morris, Christopher and Fey, Matthias and Kriege, Nils M.}",
+        "booktitle={International Joint Conferences on Artifical Intelligence - Survey Track}",
+        "year={2021}"
+      ]
+    }
+  },
+  {
+    "name":
       "OGB-LSC: A Large-Scale Challenge for Machine Learning on Graphs",
     "author":
       "Weihua Hu, Matthias Fey, Hongyu Ren, Maho Nakata, Yuxiao Dong, Jure Leskovec",
@@ -127,7 +154,7 @@
       "content": [
         "title={Adversarial Generation of Continuous Implicit Shape Representations}",
         "author={Kleineberg, Marian and Fey, Matthias and Weichert, Frank}",
-        "booktitle={Eurographics 2020 - Short Papers}",
+        "booktitle={Eurographics - Short Papers}",
         "year={2020}"
       ]
     }
