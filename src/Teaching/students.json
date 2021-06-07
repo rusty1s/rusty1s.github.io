@@ -1,5 +1,11 @@
 [
   {
+    "name": "Deep Learning-gestützte Identifikation mikro- und makroskopischer Bewegungsmuster",
+    "author": "Matthias Barth",
+    "year": "2021",
+    "isMaster": true
+  },
+  {
     "name": "Zeit-effizientes Training von Convolutional Neural Networks",
     "author": "Jessica Bühler",
     "year": "2020",
