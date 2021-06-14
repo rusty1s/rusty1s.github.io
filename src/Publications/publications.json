@@ -1,6 +1,37 @@
 [
   {
     "name":
+      "GNNAutoScale: Scalable and Expressive Graph Neural Networks via Historical Embeddings",
+    "author":
+      "Matthias Fey, Jan E. Lenssen, Frank Weichert, Jure Leskovec",
+    "description": ["International Conferences on Machine Learning (2021)"],
+    "refs": [
+      {
+        "name": "Link",
+        "href": "https://arxiv.org/abs/2106.05609"
+      },
+      {
+        "name": "PDF (0.6MB)",
+        "href": "https://arxiv.org/pdf/2106.05609.pdf"
+      },
+      {
+        "name": "Code",
+        "href": "https://github.com/rusty1s/pyg_autoscale"
+      }
+    ],
+    "bibtex": {
+      "type": "inproceedings",
+      "id": "Fey/etal/2021",
+      "content": [
+        "title={{GNNAutoScale}: Scalable and Expressive Graph Neural Networks via Historical Embeddings}",
+        "author={Fey, Matthias and Lenssen, Jan E. and Weichert, Frank and Leskovec, Jure}",
+        "booktitle={International Conferences on Machine Learning (ICML)}",
+        "year={2021}"
+      ]
+    }
+  },
+  {
+    "name":
       "The Power of the Weisfeiler-Leman Algorithm for Machine Learning with Graphs",
     "author":
       "Christopher Morris, Matthias Fey, Nils M. Kriege",
