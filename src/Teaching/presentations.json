@@ -1,5 +1,13 @@
 [
   {
+    "title": "PyTorch Geometric: Motivation and Future Directions",
+    "subtitle": "at the PyTorch Geometric Tutorial - University of Trento",
+    "date": "June 2021",
+    "href": "https://antoniolonga.github.io/Pytorch_geometric_tutorials/posts/post16.html",
+    "pdfHref": "http://rusty1s.github.io/pyg_tutorial.pdf",
+    "pdfSize": "2.1MB"
+  },
+  {
     "title": "Tutorial on Graph Neural Networks",
     "subtitle": "at the Geometry and Machine Learning with Applications to Biomedical Engineering Workshop - University College London",
     "date": "September 2020",

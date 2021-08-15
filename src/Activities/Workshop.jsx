@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styles from './visit.css';
+import styles from './workshop.css';
 
 import Link from '../components/Link';
 
@@ -11,7 +11,7 @@ const propTypes = {
   date: PropTypes.string.isRequired,
 };
 
-const Visit = props => (
+const Workshop = props => (
   <div className={styles.main}>
     <div className={styles.name}>
       <Link href={props.href}>{props.name}</Link>
@@ -20,6 +20,6 @@ const Visit = props => (
   </div>
 );
 
-Visit.propTypes = propTypes;
+Workshop.propTypes = propTypes;
 
-export default Visit;
+export default Workshop;
