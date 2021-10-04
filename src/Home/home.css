@@ -13,7 +13,7 @@
   background-image: url('./profile2.png');
   background-size: 100%;
   border-radius: 50%;
-  border: 10px solid primary-light;
+  border: 5px solid rgba(255, 255, 255, 0.5);
   margin: 0 0 2rem;
 }
 
