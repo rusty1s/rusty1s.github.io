@@ -10,7 +10,7 @@
   display: inline-block;
   width: 20rem;
   height: 20rem;
-  background-image: url('./profile.png');
+  background-image: url('./profile2.png');
   background-size: 100%;
   border-radius: 50%;
   border: 10px solid primary-light;
@@ -21,7 +21,7 @@
   (min-resolution: 144dpi),
   (min-resolution: 1.5dppx) {
   .image {
-    background-image: url('./profile@2x.png');
+    background-image: url('./profile2@2x.png');
   }
 }
 
