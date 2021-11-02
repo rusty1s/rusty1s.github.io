@@ -62,7 +62,7 @@
       "OGB-LSC: A Large-Scale Challenge for Machine Learning on Graphs",
     "author":
       "Weihua Hu, Matthias Fey, Hongyu Ren, Maho Nakata, Yuxiao Dong, Jure Leskovec",
-    "description": ["KDD Cup 2021", "CoRR abs/2103.09430 (2021)"],
+    "description": ["KDD Cup 2021", "NeurIPS: Datasets and Benchmarks Track (2021)"],
     "refs": [
       {
         "name": "Link",
@@ -82,13 +82,12 @@
       }
     ],
     "bibtex": {
-      "type": "article",
+      "type": "inproceedings",
       "id": "Hu/etal/2021",
       "content": [
         "title={{OGB-LSC}: A Large-Scale Challenge for Machine Learning on Graphs}",
         "author={Hu, Weihua and Fey, Matthias and Ren, Hongyu and Nakata, Maho and Dong, Yuxiao and Leskovec, Jure}",
-        "journal={CoRR}",
-        "volumne={abs/2103.09430}",
+        "booktitle={NeurIPS: Datasets and Benchmarks Track}",
         "year={2021}"
       ]
     }

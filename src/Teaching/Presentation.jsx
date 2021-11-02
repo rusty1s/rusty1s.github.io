@@ -20,7 +20,12 @@ const Presentation = props => (
     <div className={styles.subtitle}>
       {props.subtitle} <span className={styles.date}>{`(${props.date})`}</span>
     </div>
-    <div>[<Link href={props.href}>Link</Link>, <Link href={props.pdfHref}>{`PDF (${props.pdfSize})`}</Link>]</div>
+    <div>[
+      <Link href={props.href}>Link</Link>
+      {props.pdfHref &&
+      <span>, <Link href={props.pdfHref}>{`PDF (${props.pdfSize})`}</Link></span>
+      }]
+    </div>
   </div>
 );
 

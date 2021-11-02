@@ -1,5 +1,25 @@
 [
   {
+    "title": "PyTorch Geometric: Tutorial and Hands-on Session",
+    "subtitle": "at the Software and Industrial Workshop - GRAPES",
+    "date": "December 2021",
+    "href": "http://grapes-network.eu/event/software-and-industrial-workshop-i/"
+  },
+  {
+    "title": "PyG 2.0 and Auto-Scaling GNNs",
+    "subtitle": "at the Graph Representation Learning Reading Group at Mila - Quebec AI Institute",
+    "date": "November 2021",
+    "href": "https://grlmila.github.io/"
+  },
+  {
+    "title": "PyG 2.0: Advanced Representation Learning on Graphs",
+    "subtitle": "at the Stanford Graph Learning Workshop",
+    "date": "September 2021",
+    "href": "https://snap.stanford.edu/graphlearning-workshop/index.html",
+    "pdfHref": "https://snap.stanford.edu/graphlearning-workshop/slides/stanford_graph_learning_PyG_2_0.pdf",
+    "pdfSize": "7.3MB"
+  },
+  {
     "title": "PyTorch Geometric: Motivation and Future Directions",
     "subtitle": "at the PyTorch Geometric Tutorial - University of Trento",
     "date": "June 2021",
