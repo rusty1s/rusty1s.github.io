@@ -6,10 +6,22 @@
     "href": "http://grapes-network.eu/event/software-and-industrial-workshop-i/"
   },
   {
+    "title": "Auto-Scaling Graph Neural Networks",
+    "subtitle": "at the DoDSc Kolloquium - TU Dortmund University",
+    "date": "November 2021",
+    "href": "http://dodsc.tu-dortmund.de/cms/de/home/DoDSc-Kolloquium/index.html"
+  },
+  {
     "title": "PyG 2.0 and Auto-Scaling GNNs",
     "subtitle": "at the Graph Representation Learning Reading Group at Mila - Quebec AI Institute",
     "date": "November 2021",
-    "href": "https://grlmila.github.io/"
+    "href": "https://grlmila.github.io"
+  },
+  {
+    "title": "PyTorch Geometric with Matthias Fey",
+    "subtitle": "at Minhaaj's Podcast",
+    "date": "October 2021",
+    "href": "https://www.youtube.com/watch?v=lnvI8stkPOU&list=PLtluUSnvgbdF7MlqjX5-IVMCkFGTrEWlz"
   },
   {
     "title": "PyG 2.0: Advanced Representation Learning on Graphs",
