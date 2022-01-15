@@ -1,6 +1,34 @@
 [
   {
     "name":
+      "Weisfeiler and Leman go Machine Learning: The Story so far",
+    "author":
+      "Christopher Morris, Yaron Lipman, Haggai Maron, Bastian Rieck, Nils M. Kriege, Martin Grohe, Matthias Fey, Karsten Borgwardt",
+    "description": ["abs/2112.09992 (2021)"],
+    "refs": [
+      {
+        "name": "Link",
+        "href": "https://arxiv.org/abs/2112.09992"
+      },
+      {
+        "name": "PDF (3.8MB)",
+        "href": "https://arxiv.org/pdf/2112.09992.pdf"
+      }
+    ],
+    "bibtex": {
+      "type": "article",
+      "id": "Morris/etal/2021",
+      "content": [
+        "title={{Weisfeiler} and {Leman} go Machine Learning: The Story so far}",
+        "author={Morris, Christopher and Lipman, Yaron and Maron, Haggai and Rieck, Bastian and Kriege, Nils M. and Grohe, Martin and Fey, Matthias and Borgwardt, Karsten}",
+        "journal={CoRR}",
+        "volumne={abs/2112.09992}",
+        "year={2021}"
+      ]
+    }
+  },
+  {
+    "name":
       "GNNAutoScale: Scalable and Expressive Graph Neural Networks via Historical Embeddings",
     "author":
       "Matthias Fey, Jan E. Lenssen, Frank Weichert, Jure Leskovec",
