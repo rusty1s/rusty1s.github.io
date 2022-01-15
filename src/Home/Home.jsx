@@ -20,18 +20,19 @@ const Home = () => (
         <Subtitle>
           Founding Engineer @ kumo.ai
           <br />
-          PhD Student @ TU Dortmund University
+          PhD Student @ TU Dortmund
         </Subtitle>
       </GridItem>
     </Grid>
     <Grid wrap horizontalSpacing="4rem">
       <GridItem grow shrink className={styles.text}>
         <Paragraph>
-          {`I'm a founding engineer at `}
+          {`I'm the creator of `}
+          <Link href="https://github.com/pyg-team/pytorch_geometric">PyG (PyTorch Geometric)</Link>
+          {` and a founding engineer at `}
           <Link href="https://kumo.ai">kumo.ai</Link>{`, working on making
           state-of-the-art Graph Neural Network solutions readily available
-          to large-scale data warehouses, build upon `}
-          <Link href="https://github.com/pyg-team/pytorch_geometric">PyG</Link>{`.
+          to large-scale data warehouses.
           Previously, I was a PhD student in Machine Learning on graphs at the
           TU Dortmund University.
           My main area of interest lies in the generalization of Deep Learning methods
@@ -49,7 +50,7 @@ const Home = () => (
           community-driven open-source development. I'm an enthusiast for
           PyTorch, node.js, CSS, React, macOS, Arch Linux and Vim. All my
           contributions can be found at my `}
-          <Link href="https://www.github.com/rusty1s">Github</Link>
+          <Link href="https://www.github.com/rusty1s">GitHub</Link>
           {` page.`}
         </Paragraph>
         {/*
