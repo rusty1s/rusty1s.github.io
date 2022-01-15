@@ -18,29 +18,34 @@ const Home = () => (
       <GridItem>
         <Title>Matthias Fey</Title>
         <Subtitle>
-          PhD student
+          Founding Engineer @ kumo.ai
           <br />
-          TU Dortmund University
+          PhD Student @ TU Dortmund University
         </Subtitle>
       </GridItem>
     </Grid>
     <Grid wrap horizontalSpacing="4rem">
       <GridItem grow shrink className={styles.text}>
         <Paragraph>
-          {`I'm a fourth-year PhD student in Machine Learning on graphs at the
-          TU Dortmund University. My main area of interest is the generalization
-          of Deep Learning methods to arbitrary Euclidean and non-Euclidean
-          structured data.`}
+          {`I'm a founding engineer at `}
+          <Link href="https://kumo.ai">kumo.ai</Link>{`, working on making
+          state-of-the-art Graph Neural Network solutions readily available
+          to large-scale data warehouses, build upon `}
+          <Link href="https://github.com/pyg-team/pytorch_geometric">PyG</Link>{`.
+          Previously, I was a PhD student in Machine Learning on graphs at the
+          TU Dortmund University.
+          My main area of interest lies in the generalization of Deep Learning methods
+          to a wide range of applications related to structured data.`}
         </Paragraph>
+      </GridItem>
+      <GridItem grow shrink className={styles.text}>
         <Paragraph>
           {`I have a formal background in Computer Science (M.Sc 2017, B.Sc. 2013)
           and gathered five years worth of experience at a software company
           during studies.`}
         </Paragraph>
-      </GridItem>
-      <GridItem grow shrink className={styles.text}>
         <Paragraph>
-          {`In my freetime I'm passioned about new web technologies and
+          {`In my freetime I'm passioned about new technologies and
           community-driven open-source development. I'm an enthusiast for
           PyTorch, node.js, CSS, React, macOS, Arch Linux and Vim. All my
           contributions can be found at my `}
