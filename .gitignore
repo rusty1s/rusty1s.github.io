@@ -1,4 +1,5 @@
 *.log
+*.out
 node_modules/
 *.aux
 dist/index.html
