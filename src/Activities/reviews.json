@@ -1,12 +1,18 @@
 [
   {
-    "name": "International Conference on Machine Learning (ICML)",
-    "href": "https://icml.cc/Conferences/2021/",
-    "date": "Jul 18 - 24, 2021",
+    "name": "Area Chair at the Learning on Graphs Conference (LoG)",
+    "href": "https://logconference.org/",
+    "date": "Dec 9 - 12, 2022",
     "city": "Virtual-only"
   },
   {
-    "name": "MLSys Workshop on on Graph Neural Networks and Systems (GNNSys)",
+    "name": "ECMLPKDD Workshop on Mining and Learning with Graphs (MLG)",
+    "href": "https://www.mlgworkshop.ml/",
+    "date": "Sep 23, 2022",
+    "city": "Genoble, France"
+  },
+  {
+    "name": "MLSys Workshop on Graph Neural Networks and Systems (GNNSys)",
     "href": "https://gnnsys.github.io/",
     "date": "April 9, 2021",
     "city": "Virtual-only"

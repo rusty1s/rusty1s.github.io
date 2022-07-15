@@ -1,5 +1,22 @@
 [
   {
+    "title": "Building GNNs with PyTorch Geometric",
+    "subtitle": "at the Graph Machine Learning for Visual Computing CVPR Tutorial",
+    "date": "June 2021",
+    "href": "https://gml4vc.github.io"
+  },
+  {
+    "title": "Graph Neural Networks within PyTorch Geometric",
+    "subtitle": "at the Open Natural Language Processing Meetup",
+    "date": "May 2021",
+    "href": "https://www.meetup.com/open-nlp/"
+  },
+  {
+    "title": "Auto-Scaling GNNs",
+    "subtitle": "at the ML Series Seminar Talk - Vanderbilt",
+    "date": "April 2022"
+  },
+  {
     "title": "PyTorch Geometric: Tutorial and Hands-on Session",
     "subtitle": "at the Software and Industrial Workshop - GRAPES",
     "date": "December 2021",
