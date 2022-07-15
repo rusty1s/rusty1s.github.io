@@ -24,14 +24,14 @@ const Activities = () => (
       <Workshop key={workshop.date} {...workshop} />
     ))}
 
-    <Title>Attented Conferences</Title>
-    {conferences.map(conference => (
-      <Conference key={conference.date} {...conference} />
-    ))}
-
     <Title>Program Committee</Title>
     {reviews.map(review => (
       <Review key={review.date} {...review} />
+    ))}
+
+    <Title>Attented Conferences</Title>
+    {conferences.map(conference => (
+      <Conference key={conference.date} {...conference} />
     ))}
   </div>
 );
