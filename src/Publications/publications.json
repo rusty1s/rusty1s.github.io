@@ -1,6 +1,34 @@
 [
   {
     "name":
+      "On the Power of Message Passing for Learning on Graph-Structured Data",
+    "author":
+      "Matthias Fey",
+    "description": ["PhD Thesis (2022)"],
+    "refs": [
+      {
+        "name": "Link",
+        "href": "http://dx.doi.org/10.17877/DE290R-22906"
+      },
+      {
+        "name": "PDF (10.8MB)",
+        "href": "https://eldorado.tu-dortmund.de/bitstream/2003/41059/1/dissertation_fey.pdf"
+      }
+    ],
+    "bibtex": {
+      "type": "phdthesis",
+      "id": "Fey/2022",
+      "content": [
+        "title={On the Power of Message Passing for Learning on Graph-Structured Data}",
+        "author={Fey, Matthias}",
+        "school={TU Dortmund University}",
+        "year={2022}"
+      ]
+    }
+  },
+
+  {
+    "name":
       "Weisfeiler and Leman go Machine Learning: The Story so far",
     "author":
       "Christopher Morris, Yaron Lipman, Haggai Maron, Bastian Rieck, Nils M. Kriege, Martin Grohe, Matthias Fey, Karsten Borgwardt",
@@ -22,7 +50,7 @@
         "title={{Weisfeiler} and {Leman} go Machine Learning: The Story so far}",
         "author={Morris, Christopher and Lipman, Yaron and Maron, Haggai and Rieck, Bastian and Kriege, Nils M. and Grohe, Martin and Fey, Matthias and Borgwardt, Karsten}",
         "journal={CoRR}",
-        "volumne={abs/2112.09992}",
+        "volume={abs/2112.09992}",
         "year={2021}"
       ]
     }

@@ -31,8 +31,9 @@ const Home = () => (
           <Link href="https://kumo.ai">kumo.ai</Link>{`, working on making
           state-of-the-art Graph Neural Network solutions readily available
           to large-scale data warehouses.
-          Previously, I obtained my PhD with highest distinction "summa cum laude" in
-          Machine Learning on graphs from the TU Dortmund University.
+          Previously, I obtained my
+          <Link href="http://dx.doi.org/10.17877/DE290R-22906">PhD with highest distinction "summa cum laude" in Machine Learning on graphs</Link>
+          from the TU Dortmund University.
           My main area of interest lies in the generalization of Deep Learning methods
           to a wide range of applications related to structured data.`}
         </Paragraph>
