@@ -1,5 +1,31 @@
 [
   {
+    "title": "PyTorch Geometric Tutorial",
+    "subtitle": "at the Hot Topic in Graph Neural Networks Workshop",
+    "date": "October 2022",
+    "href": "https://gain-group.de/html/events.html"
+  },
+  {
+    "title": "Graph Neural Networks within PyTorch Geometric",
+    "subtitle": "at the ArangoDB Summit",
+    "date": "October 2022",
+    "href": "https://hopin.com/events/arangodb-summit/registration"
+  },
+  {
+    "title": "PyG - Progress and Future",
+    "subtitle": "at the Stanford Graph Learning Workshop",
+    "date": "September 2022",
+    "href": "https://snap.stanford.edu/graphlearning-workshop-2022"
+  },
+  {
+    "title": "Accelerating GNNs with PyTorch Geometric and GPUs",
+    "subtitle": "at NVIDIA GTC",
+    "date": "September 2022",
+    "href": "https://register.nvidia.com/flow/nvidia/gtcfall2022/attendeeportal/page/sessioncatalog/session/165531038548100143p5",
+    "pdfHref": "https://static.rainfocus.com/nvidia/gtcfall2022/sess/165531038548100143p5/supmat/A41105%20Accelerating%20GNNs%20with%20PyTorch%20Geometric%20and%20GPUs_1663707925063001emHF.pdf",
+    "pdfSize": "1.2MB"
+  },
+  {
     "title": "Building GNNs with PyTorch Geometric",
     "subtitle": "at the Graph Machine Learning for Visual Computing CVPR Tutorial",
     "date": "June 2021",
