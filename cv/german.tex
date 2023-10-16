@@ -1,7 +1,7 @@
 \documentclass[letterpaper,11pt]{article}
 \newlength{\outerbordwidth}
 
-\usepackage[a4paper,left=3cm,right=3cm,bottom=2cm,top=2.5cm]{geometry}
+\usepackage[a4paper,left=3cm,right=3cm,bottom=2.5cm,top=2.5cm]{geometry}
 
 \usepackage{style}
 \pagestyle{empty}
@@ -39,54 +39,93 @@
 
 \begin{tabularx}{\textwidth}{Xr}
   \textbf{\huge Matthias Fey}\\
-  \vspace{0.1cm}
-  \faMapMarker~Von-der-Recke-Str. 9, 44137 Dortmund\\
+  \vspace{-0.2cm}
+  \faBirthdayCake~02.06.1990 in Unna, Deutschland\\
+  \faMapMarker~Von-der-Recke-Str. 9, 44137 Dortmund, Deutschland\\
   \faEnvelope~\url{matthias.fey@tu-dortmund.de}\\
-  % \vspace{0.05cm}
+  \faPhone~+49~160~3032292\\
+  \faBookmark~\url{https://rusty1s.github.io}\\
 \end{tabularx}
 
-\resheading{Persönliches}
+\resheading{Ausbildung}
 
-\begin{tabularx}{\textwidth}{XXX}
-  \faBirthdayCake~02.06.1990 & \faMapMarker~Unna & \faMale~ledig
-\end{tabularx}
-
-\resheading{Studium}
-
-\ressubheading{\textbf{Doktorand} an der TU Dortmund, Fakultät Informatik}{\faCalendar~\emph{2017 - heute}}
+\ressubheading{\textbf{Doktor der Ingenieurwissenschaften}\\ an der Technischen Universtität Dortmund}{\faCalendar~\emph{2017 - 2022}}
 \begin{itemize}
-  \item Betreuerin: Prof.\ Dr.\ Petra Mutzel
-  \item Arbeitstitel: \emph{Geometric Deep Learning: Algorithms \& Applications}
+  \setlength\itemsep{0em}
+  \item \small \textbf{Themen:} Geometric Deep Learning \& Graph Representation Learning
+  \item \small \textbf{Titel:} On the Power of Neural Message Passing for Learning on Graph-Structured Data
+  \item \small \textbf{Doktorvater:} Priv.-Doz.~Dr.~Frank Weichert
+  \item \small Abschluss mit summa cum laude
 \end{itemize}
-\ressubheading{\textbf{Master of Science} an der TU Dortmund, Fakultät Informatik}{\faCalendar~\emph{2013 - 2017}}
-\ressubheading{\textbf{Bachelor of Science} an der TU Dortmund, Fakultät Informatik}{\faCalendar~\emph{2010 - 2013}}
 
-\resheading{Schulausbildung}
+\ressubheading{\textbf{M.S. in Informatik} an der Technischen Universität Dortmund}{\faCalendar~\emph{2013 - 2017}}
+\begin{itemize}
+  \setlength\itemsep{0em}
+  \item \small \textbf{Titel:} Convolutional Neural Networks auf Graphrepräsentationen von Bildern
+  \item \small Abschluss mit Auszeichnung
+\end{itemize}
 
-\ressubheading{\textbf{Abitur} am Pestalozzi Gymnasium Unna}{\faCalendar~\emph{2000 - 2009}}
-\ressubheading{Osterfeldschule Unna}{\faCalendar~\emph{1996 - 2000}}
+\ressubheading{\textbf{B.S. in Informatik} an der Technischen Universität Dortmund}{\faCalendar~\emph{2010 - 2013}}
+\begin{itemize}
+  \setlength\itemsep{0em}
+  \item \small \textbf{Titel:} Qualitative Semantiken für DAGs – ein Vergleich von OCF- und CP-Netzwerken
+\end{itemize}
+
+\ressubheading{\textbf{Abitur} am Pestalozzi Gymnasium, Unna}{\faCalendar~\emph{2000 - 2009}}
 
 \resheading{Tätigkeiten}
 
-\ressubheading{\textbf{Software-Entwickler} bei Comline, Dortmund (Werkstudent)}{\faCalendar~\emph{2013 - 2017}}
-\ressubheading{\textbf{Zivildienstleistender} im Katharinen Hospital Unna}{\faCalendar~\emph{2009 - 2010}}
+\ressubheading{\textbf{Gründungs-Ingenieur} bei Kumo.ai, San Francisco, California}{\faCalendar~\emph{2022 - aktuell}}
+
+\ressubheading{\textbf{Wissenschaftlicher Mitarbeiter}\\ an der Technischen Universität Dortmund}{\faCalendar~\emph{2017 - 2021}}
+\begin{itemize}
+  \setlength\itemsep{0em}
+  \item \small \textbf{SFB 876, Project A6:} Resource-efficient Graph Mining
+  \item \small \textbf{Lehrkraft:} Mensch-Maschine-Interaktion
+\end{itemize}
+
+\ressubheading{\textbf{Software-Ingenieur} bei Comline, Dortmund}{\faCalendar~\emph{2013 - 2017}}
+
+\ressubheading{\textbf{Zivildienst} am Katharinen Hospital, Unna}{\faCalendar~\emph{2009 - 2010}}
+
+\resheading{Forschungsaufenthalte}
+
+\ressubheading{\textbf{Stanford University}\\ im SNAP-Lab mit Jure Leskovec, Stanford, California}{\faCalendar~\emph{Feb 2020 - Mar 2020}}
+
+\resheading{Auszeichnungen}
+
+\ressubheading{\textbf{Dissertationspreis} der Alumni, Dortmund}{\faCalendar~\emph{2022}}
 
 \resheading{Veröffentlichungen}
 
-\ressubheading{Jan Eric Lenssen, \textbf{Matthias Fey}, Pascal Libuschewski. Group Equivariant Capsule Networks. \textit{Eingereicht.}}{\faCalendar~\emph{2018}}
+\ressubheading{Christopher Morris, Yaron Lipman, Haggai Maron, Bastian Rieck, Nils M. Kriege, Martin Grohe, \textbf{Matthias Fey} and Karsten Borgwardt: Weisfeiler and Leman go Machine Learning: The Story so far. In: \emph{CoRR, abs/2112.09992}}{\faCalendar~\emph{2021}}
 
-\ressubheading{Nils M. Kriege, \textbf{Matthias Fey}, Denis Fisseler, Petra Mutzel, Frank Weichert. Recognizing Cuneiform Signs Using Graph Based Methods. In \textit{International Workshop on Cost-Sensitive Learning (COST), SIAM International Conference on Data Mining (SDM).}}{\faCalendar~\emph{2018}}
+\ressubheading{\textbf{Matthias Fey}, Jan Eric Lenssen, Frank Weichert and Jure Leskovec: GNNAutoScale: Scalable And Expressive Graph Neural Networks via Historical Embeddings. In: \emph{International Conference on Machine Learning (ICML)}.}{\faCalendar~\emph{2021}}
 
-\ressubheading{\textbf{Matthias Fey}, Jan Eric Lenssen, Frank Weichert, Heinrich Müller. SplineCNN: Fast Geometric Deep Learning with Continuous B-Spline Kernels. In \textit{IEEE Conference on Computer Vision and Pattern Recognition (CVPR).}}{\faCalendar~\emph{2018}}
+\ressubheading{Weihua Hu, \textbf{Matthias Fey}, Hongyu Ren, Maho Nakata, Yuxiao Dong and Jure Leskovec: OGB-LSC:\@ Large-Scale Challenge for Machine Learning on Graphs. In: \emph{NeurIPS:\@ Datasets and Benchmarks Track}.}{\faCalendar~\emph{2021}}
+
+\ressubheading{Christopher Morris, \textbf{Matthias Fey}, Nils M. Kriege: The Power of the Weisfeiler-Leman Algorithm for Machine Learning with Graphs. In: \emph{International Joint Conference on Artificial Intelligence (IJCAI) --- Survey Track}.}{\faCalendar~\emph{2021}}
+
+\ressubheading{\textbf{Matthias Fey*}, Jan-Gin Yuen* and Frank Weichert: Hierarchical Inter-Message Passing for Learning on Molecular Graphs. In: \emph{ICML Workshop on Graph Representation Learning and Beyond (GRL+)}.}{\faCalendar~\emph{2020}}
+
+\ressubheading{Marian Kleineberg, \textbf{Matthias Fey} and Frank Weichert: Adversarial Generation of Continuous Implicit Shape Representations. In: \emph{Eurographics.}}{\faCalendar~\emph{2020}}
+
+\ressubheading{Weihua Hu, \textbf{Matthias Fey}, Marinka Zitnik, Yuxiao Dong, Hongyu Ren, Bowen Liu, Michele Catasta and Jure Leskovec: Open Graph Benchmark: Da\-ta\-sets for Machine Learning on Graphs. In: \emph{Advances in Neural Information Processing Systems (NeurIPS)} \textbf{(spotlight)}.}{\faCalendar~\emph{2020}}
+
+\ressubheading{\textbf{Matthias Fey}, Jan Eric Lenssen, Christopher Morris, Jonathan Masci and Nils M. Kriege: Deep Graph Matching Consensus. In: \emph{International Conference on Learning Representations (ICLR)}.}{\faCalendar~\emph{2020}}
+
+\ressubheading{\textbf{Matthias Fey}: Just Jump: Dynamic Neighborhood Aggregation in Graph Neural Networks. In: \emph{ICLR Workshop on Representation Learning on Graphs and Manifolds (RLGM)}.}{\faCalendar~\emph{2019}}
+
+\ressubheading{\textbf{Matthias Fey} and Jan Eric Lenssen: Fast Graph Representation Learning with PyTorch Geometric. In: \emph{ICLR Workshop on Representation Learning on Graphs and Manifolds (RLGM)} \textbf{(contributed talk)}.}{\faCalendar~\emph{2019}}
+
+\ressubheading{Christopher Morris, Martin Ritzert, \textbf{Matthias Fey}, William L. Hamilton, Jan Eric Lenssen, Gaurav Rattan and Martin Grohe: Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks. In: \emph{Conference on Artificial Intelligence (AAAI)}.}{\faCalendar~\emph{2019}}
+
+\ressubheading{Jan Eric Lenssen, \textbf{Matthias Fey} and Pascal Libuschewski: Group Equivariant Capsule Networks. In: \emph{Advances in Neural Information Processing Systems (NeurIPS).}}{\faCalendar~\emph{2018}}
+
+\ressubheading{Nils M. Kriege, \textbf{Matthias Fey}, Denis Fisseler, Petra Mutzel and Frank Weichert: Recognizing Cuneiform Signs Using Graph-Based Methods. In: \emph{SDM Workshop on Cost-Sensitive Learning (COST).}}{\faCalendar~\emph{2018}}
+
+\ressubheading{\textbf{Matthias Fey*}, Jan Eric Lenssen*, Frank Weichert and Heinrich Müller: SplineCNN:\@ Fast Geometric Deep Learning with Continuous B-Spline Kernels. In: \emph{Computer Vision and Pattern Recognition (CVPR)}.}{\faCalendar~\emph{2018}}
 
 \ressubheading{Christian Eichhorn, \textbf{Matthias Fey}, Gabriele Kern-Isberner. CP- and OCF-networks – A Comparison. In \textit{Fuzzy Sets and Systems, Volume 298: Special Issue on Graded Logical Approaches and Their Applications.}}{\faCalendar~\emph{2016}}
-
-\resheading{Sprachen}
-
-\begin{tabularx}{\textwidth}{XX}
-  \faCircle\,\faCircle\,\faCircle\,\faCircle\,\faCircle~Deutsch
-  &
-  \faCircle\,\faCircle\,\faCircle\,\faCircle\,\textcolor{lightgray}{\faCircle}~Englisch
-\end{tabularx}
 
 \end{document}
